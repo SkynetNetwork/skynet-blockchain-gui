@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ro_RO\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: skynet-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-07-13 00:14\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: skynet-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ro\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Skynet-Network.skynet-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Vrei să explorezi blocurile Chia mai mult? Verifică <0>Chia Explorer</0> construit de către un dezvoltator open-source."
+msgid "*Want to explore Skynet’s blocks further? Check out <0>Skynet Explorer</0> built by an open source developer."
+msgstr "Vrei să explorezi blocurile Skynet mai mult? Verifică <0>Skynet Explorer</0> construit de către un dezvoltator open-source."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -44,8 +44,8 @@ msgstr "Un 'cultivator' este un serviciu care rulează pe o mașină care dețin
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "Despre blockchain-ul Chia"
+msgid "About Skynet Blockchain"
+msgstr "Despre blockchain-ul Skynet"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -216,8 +216,8 @@ msgid "Block VDF Iterations"
 msgstr "Iterațiile VDF pentru bloc"
 
 #: src/components/block/Block.jsx:336
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Bloc la înălțimea {0} în blockchainul Chia"
+msgid "Block at height {0} in the Skynet blockchain"
+msgstr "Bloc la înălțimea {0} în blockchainul Skynet"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -307,18 +307,6 @@ msgstr ""
 #: src/electron/main.tsx:401
 msgid "Chat on KeyBase"
 msgstr "Discută pe KeyBase"
-
-#: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
-
-#: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Wiki Blockchain Chia"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Chia Wallet"
-msgstr "Portofel Chia"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -690,8 +678,8 @@ msgid "Edit"
 msgstr "Editare"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Introduceti cele 24 de cuvinte din mnemmonic seed pe care le-ati salvat pentru a restaura portofelul dvs. Chia."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Skynet wallet."
+msgstr "Introduceti cele 24 de cuvinte din mnemmonic seed pe care le-ati salvat pentru a restaura portofelul dvs. Skynet."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -704,8 +692,8 @@ msgid "Error"
 msgstr "Eroare"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Eroare: Nu se poate trimite chia la adresa colorată. Vă rugăm să introduceți o adresă chia."
+msgid "Error: Cannot send skynet to coloured address. Please enter a skynet address."
+msgstr "Eroare: Nu se poate trimite skynet la adresa colorată. Vă rugăm să introduceți o adresă skynet."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1484,8 +1472,8 @@ msgid "Plots Passed Filter"
 msgstr "Parcele Filtrate"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Parcelele reprezintă spațiu alocat pe hard-disc, folosite pentru a cultiva și câștiga Chia. <0>Află mai multe</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Skynet. <0>Learn more</0>"
+msgstr "Parcelele reprezintă spațiu alocat pe hard-disc, folosite pentru a cultiva și câștiga Skynet. <0>Află mai multe</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1885,6 +1873,18 @@ msgstr "Loghează-te"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Sari peste adăugarea unui director final la harvester pentru farmare"
 
+#: src/electron/main.tsx:419
+msgid "Skynet"
+msgstr "Skynet"
+
+#: src/electron/main.tsx:358
+msgid "Skynet Blockchain Wiki"
+msgstr "Wiki Blockchain Skynet"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Skynet Wallet"
+msgstr "Portofel Skynet"
+
 #: src/components/pool/PoolHero.tsx:26
 msgid "Smooth out your XCH farming rewards by joining a pool."
 msgstr ""
@@ -1922,8 +1922,8 @@ msgstr "Lungimea intervalului pentru cheltuieli (număr de blocuri)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limită de cheltuieli (Chia per interval): {0}"
+msgid "Spending Limit (skynet per interval): {0}"
+msgstr "Limită de cheltuieli (Skynet per interval): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -1971,8 +1971,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Skynet blockchain"
+#~ msgstr "Sub Block at height {0} in the Skynet blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -2115,8 +2115,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Aceasta facilitate este disponibila doar din GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Aceasta este suma de Chia pe care o puteți utiliza în prezent pentru a efectua tranzacții. Nu include recompense în așteptare, tranzacții în așteptare și Chia pe care tocmai le-ați cheltuit, dar care nu se află încă în blockchain."
+msgid "This is the amount of Skynet that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Skynet that you have just spent but is not yet in the blockchain."
+msgstr "Aceasta este suma de Skynet pe care o puteți utiliza în prezent pentru a efectua tranzacții. Nu include recompense în așteptare, tranzacții în așteptare și Skynet pe care tocmai le-ați cheltuit, dar care nu se află încă în blockchain."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2135,8 +2135,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Acesta este momentul în care blocul a fost creat de fermier, care este înainte de a fi finalizat cu o 'proof of time'"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Aceasta este cantitatea totală de chia din blockchain la subblocul peak curent care este controlat de cheile dvs. private. Include recompense înghețate, dar nu tranzacții în așteptare de intrare și de ieșire."
+msgid "This is the total amount of skynet in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Aceasta este cantitatea totală de skynet din blockchain la subblocul peak curent care este controlat de cheile dvs. private. Include recompense înghețate, dar nu tranzacții în așteptare de intrare și de ieșire."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2181,7 +2181,7 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Această tranzacție a fost inclusă pe blockchain la această înălțime a blocului"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Skynet is no longer compatible with the blockchain and can not safely farm."
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
@@ -2206,10 +2206,6 @@ msgstr "Catre"
 msgid "Total Balance"
 msgstr "Sold Total"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
 msgid "Total Iterations"
 msgstr "Iteratii totale"
@@ -2225,6 +2221,10 @@ msgstr "Dimensiunea totală a parcelelor:"
 #: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
 msgid "Total Size of Plots"
 msgstr "Dimensiunea totală a parcelelor"
+
+#: src/components/farm/card/FarmCardTotalSKYNETFarmed.tsx:15
+#~ msgid "Total Skynet Farmed"
+#~ msgstr ""
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2378,16 +2378,16 @@ msgstr ""
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.skynetWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107
@@ -2416,8 +2416,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vrei să câștigi mai multe Chia? Adaugă mai multe parcele la ferma ta."
+msgid "Want to earn more Skynet? Add more plots to your farm."
+msgstr "Vrei să câștigi mai multe Skynet? Adaugă mai multe parcele la ferma ta."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2444,8 +2444,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Greutatea este dificultatea totala adaugata a tuturor subblocurilor până la acesta inclusiv"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Bine ati venit la Chia. Va rugam logati-va cu o cheie existenta, sau creati o noua cheie."
+msgid "Welcome to Skynet. Please log in with an existing key, or create a new key."
+msgstr "Bine ati venit la Skynet. Va rugam logati-va cu o cheie existenta, sau creati o noua cheie."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2515,8 +2515,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Skynet application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Skynet application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2603,9 +2603,9 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Răsplată Blocuri"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Total Chia cultivat"
+#: src/components/farm/card/FarmCardTotalSkynetFarmed.tsx:29
+msgid "{currencyCode} Total Skynet Farmed"
+msgstr "{currencyCode} Total Skynet cultivat"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

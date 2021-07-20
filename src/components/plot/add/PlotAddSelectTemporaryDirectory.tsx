@@ -7,7 +7,7 @@ import {
   CardStep,
   Flex,
   TextField,
-} from '@chia/core';
+} from '@skynet/core';
 import { Typography } from '@material-ui/core';
 import useSelectDirectory from '../../../hooks/useSelectDirectory';
 

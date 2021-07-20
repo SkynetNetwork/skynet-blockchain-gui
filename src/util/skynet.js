@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class Chia {
+class Skynet {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,42 +73,42 @@ class Chia {
   }
 }
 
-export const chia_formatter = (value, unit) => new Chia(value, unit);
+export const skynet_formatter = (value, unit) => new Skynet(value, unit);
 
-chia_formatter.convert = convert;
-chia_formatter.setDisplay = units.setDisplay;
-chia_formatter.setUnit = units.setUnit;
-chia_formatter.getUnit = units.getUnit;
-chia_formatter.setFiat = (currency, rate, display = null) => {
+skynet_formatter.convert = convert;
+skynet_formatter.setDisplay = units.setDisplay;
+skynet_formatter.setUnit = units.setUnit;
+skynet_formatter.getUnit = units.getUnit;
+skynet_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_chia = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo').to('chia').value();
+export const mojo_to_skynet = (mojo) => {
+  return skynet_formatter(Number.parseInt(mojo), 'mojo').to('skynet').value();
 };
 
-export const chia_to_mojo = (chia) => {
-  return chia_formatter(Number.parseFloat(Number(chia)), 'chia')
+export const skynet_to_mojo = (skynet) => {
+  return skynet_formatter(Number.parseFloat(Number(skynet)), 'skynet')
     .to('mojo')
     .value();
 };
 
-export const mojo_to_chia_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('chia').toString();
+export const mojo_to_skynet_string = (mojo) => {
+  return skynet_formatter(Number(mojo), 'mojo').to('skynet').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo')
+  return skynet_formatter(Number.parseInt(mojo), 'mojo')
     .to('colouredcoin')
     .value();
 };
 
 export const colouredcoin_to_mojo = (colouredcoin) => {
-  return chia_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
+  return skynet_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
     .to('mojo')
     .value();
 };
 
 export const mojo_to_colouredcoin_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+  return skynet_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
 };
