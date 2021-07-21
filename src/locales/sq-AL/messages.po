@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: skynet-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sq\n"
-"X-Crowdin-File: /[Skynet-Network.skynet-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[SkynetNetwork.skynet-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -245,7 +245,7 @@ msgstr "Blloqet"
 msgid "Browse"
 msgstr "Shfleto"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:77
 msgid "But you are currently farming <0/>"
 msgstr "Ju jeni duke vjelë<0/>"
 
@@ -566,7 +566,7 @@ msgstr "KUJDES: Fshije përgjithmonë çelësin privat"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1007,16 +1007,16 @@ msgid "Join a Pool"
 msgstr "Bashkohu me një poll"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-msgstr "Anëtarësohuni në një pishinë dhe merrni shpërblime të qëndrueshme XCH. Kthimi mesatar është i njëjtë, por është shumë më pak i paqëndrueshëm."
+msgid "Join a pool and get consistent XNT farming rewards. The average returns are the same, but it is much less volatile."
+msgstr "Anëtarësohuni në një pishinë dhe merrni shpërblime të qëndrueshme XNT. Kthimi mesatar është i njëjtë, por është shumë më pak i paqëndrueshëm."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-msgstr "Anëtarësohuni në një poll dhe merrni shpërblime të qëndrueshme në XCH. Kthimi mesatar është i njëjtë, por është shumë më pak i paqëndrueshëm. Caktoni një komplot NFT. Ju lehtë mund të ndërroni pollet pa pasur nevojë të ri-plotoni."
+msgid "Join a pool and get consistent XNT farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgstr "Anëtarësohuni në një poll dhe merrni shpërblime të qëndrueshme në XNT. Kthimi mesatar është i njëjtë, por është shumë më pak i paqëndrueshëm. Caktoni një komplot NFT. Ju lehtë mund të ndërroni pollet pa pasur nevojë të ri-plotoni."
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
-msgstr "Bashkohuni me një poll dhe merrni shpërblime më të qëndrueshme XCH. Krijoni një plot NFT dhe caktoni plotet tuaja të reja në një grup."
+msgid "Join a pool and get more consistent XNT farming rewards. Create a plot NFT and assign your new plots to a group."
+msgstr "Bashkohuni me një poll dhe merrni shpërblime më të qëndrueshme XNT. Krijoni një plot NFT dhe caktoni plotet tuaja të reja në një grup."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "K-Size"
@@ -1031,7 +1031,7 @@ msgstr "Çelësi"
 msgid "KiB Up/Down"
 msgstr "KiB Lart / Poshtë"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:51
 msgid "Last Attempted Proof"
 msgstr "Provë e fundit e provuar"
 
@@ -1215,7 +1215,7 @@ msgstr "Id e nyjes"
 msgid "None"
 msgstr "Asnjë"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:72
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Asnjë nga plotet tuaja nuk e ka kaluar filtrin akoma."
 
@@ -1821,8 +1821,8 @@ msgid "Self Pooling"
 msgstr "Vetë grumbullimi"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XCH rewards."
-msgstr "Vetë grumbullimi. Kur të fitoni një bllok, do të fitoni shpërblime XCH."
+msgid "Self pool. When you win a block you will earn XNT rewards."
+msgstr "Vetë grumbullimi. Kur të fitoni një bllok, do të fitoni shpërblime XNT."
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -1886,8 +1886,8 @@ msgid "Skynet Wallet"
 msgstr "Kuleta Skynet"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
-msgstr "Z'busni shpërblimet tuaja XCH duke u bashkuar me një poll."
+msgid "Smooth out your XNT farming rewards by joining a pool."
+msgstr "Z'busni shpërblimet tuaja XNT duke u bashkuar me një poll."
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
 msgid "Something went wrong"
@@ -2092,8 +2092,8 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Tarifat totale të transaksioneve në këtë bllok. Shpërblyer për fermerin."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "Këto janë udhëzimet se si fermeri dëshiron të paguhet. Si parazgjedhje kjo do të jetë një adresë XCH, por mund të vendoset në çdo varg me madhësi më të vogël se 1024 karaktere, kështu që mund të përfaqësojë një tjetër identifikues të bllokut ose sistemit të pagesave."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XNT address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr "Këto janë udhëzimet se si fermeri dëshiron të paguhet. Si parazgjedhje kjo do të jetë një adresë XNT, por mund të vendoset në çdo varg me madhësi më të vogël se 1024 karaktere, kështu që mund të përfaqësojë një tjetër identifikues të bllokut ose sistemit të pagesave."
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
@@ -2168,7 +2168,7 @@ msgstr "Ky plot NFT nuk është i lidhur me pollin"
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Kjo tabelë ju tregon hera e fundit që ferma juaj u përpoq të fitonte një sfidë blloku. <0> Mësoni më shumë </0>"
 
@@ -2183,6 +2183,10 @@ msgstr "Kjo tregti u përfshi në bllokimin në këtë lartësi të bllokut"
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Skynet is no longer compatible with the blockchain and can not safely farm."
 msgstr "Ky version i Skynet nuk është më i pajtueshëm me blockchain dhe nuk mund të fermojë në mënyrë të sigurt."
+
+#: src/components/farm/FarmLastAttemptedProof.tsx:30
+msgid "Time Consuming(ms)"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"

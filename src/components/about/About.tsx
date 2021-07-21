@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://skynet.net';
+const url = 'https://skynet-network.org';
 
 type Props = {
   version: string;
@@ -144,7 +144,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/Skynet-Network/skynet-blockchain/issues"
+          href="https://github.com/SkynetNetwork/skynet-blockchain/issues"
           target="_blank"
         >
           Report an issue

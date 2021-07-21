@@ -41,7 +41,7 @@ export default function FullNodeBlockSearch() {
             placeholder={t`Search block by header hash`}
             fullWidth
           />
-          <IconButton type="submit" aria-label="search">
+          <IconButton type="submit" aria-label="search" color="primary">
             <SearchIcon />
           </IconButton>
         </Flex>

@@ -84,7 +84,7 @@ const cols = [
       return (
         <FullNodeCloseConnection nodeId={row.node_id}>
           {({ onClose }) => (
-            <StyledIconButton onClick={onClose}>
+            <StyledIconButton onClick={onClose} style={{color:"#ff4d4d"}}>
               <DeleteIcon />
             </StyledIconButton>
           )}

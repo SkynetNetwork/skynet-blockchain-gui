@@ -66,7 +66,7 @@ export default function PlotAddChooseSize() {
           }
           <Link
             target="_blank"
-            href="https://github.com/Skynet-Network/skynet-blockchain/wiki/k-sizes"
+            href="https://github.com/SkynetNetwork/skynet-blockchain/wiki/k-sizes"
           >
             Learn more
           </Link>

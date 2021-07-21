@@ -68,7 +68,7 @@ export default function Dashboard() {
           <DashboardTitleTarget />
           <Flex flexGrow={1} />
           <LocaleToggle locales={locales} defaultLocale={defaultLocale} />
-          <DarkModeToggle />
+          {/* <DarkModeToggle /> */}
         </Toolbar>
       </StyledAppBar>
       <StyledDrawer variant="permanent">

@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: skynet-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: zh-TW\n"
-"X-Crowdin-File: /[Skynet-Network.skynet-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[SkynetNetwork.skynet-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -245,7 +245,7 @@ msgstr "區塊"
 msgid "Browse"
 msgstr "瀏覽"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:77
 msgid "But you are currently farming <0/>"
 msgstr "但你目前耕種 <0/>"
 
@@ -566,7 +566,7 @@ msgstr "危險：將永久刪除私鑰"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1007,16 +1007,16 @@ msgid "Join a Pool"
 msgstr "加入一個農場"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-msgstr "加入農會並獲得持續的 XCH 耕種獎勵。雖然平均報酬一樣但波動較小相對穩定。"
+msgid "Join a pool and get consistent XNT farming rewards. The average returns are the same, but it is much less volatile."
+msgstr "加入農會並獲得持續的 XNT 耕種獎勵。雖然平均報酬一樣但波動較小相對穩定。"
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent XNT farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr "加入農會並獲得持續的XCH 耕種獎勵。雖然平均報酬一樣但波動較小相對穩定。分配耕地到農場。你可以更輕鬆的轉換農會而不用重新進行耕地。"
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
-msgstr "加入農會以獲得更多持續性的 XCH 耕種獎勵。建立農場並分配您的新耕地到群組。"
+msgid "Join a pool and get more consistent XNT farming rewards. Create a plot NFT and assign your new plots to a group."
+msgstr "加入農會以獲得更多持續性的 XNT 耕種獎勵。建立農場並分配您的新耕地到群組。"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "K-Size"
@@ -1031,7 +1031,7 @@ msgstr "金鑰"
 msgid "KiB Up/Down"
 msgstr "KiB 上傳/下傳"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:51
 msgid "Last Attempted Proof"
 msgstr "最後試過證明"
 
@@ -1215,7 +1215,7 @@ msgstr "節點 ID"
 msgid "None"
 msgstr "無"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:72
 msgid "None of your plots have passed the plot filter yet."
 msgstr "你還沒有任何的耕地通過篩選。"
 
@@ -1821,8 +1821,8 @@ msgid "Self Pooling"
 msgstr "正在為自己的農會耕種中"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XCH rewards."
-msgstr "自己的農會。當你贏取一個區塊時你將獲得 XCH 獎勵。"
+msgid "Self pool. When you win a block you will earn XNT rewards."
+msgstr "自己的農會。當你贏取一個區塊時你將獲得 XNT 獎勵。"
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -1886,7 +1886,7 @@ msgid "Skynet Wallet"
 msgstr "Skynet 錢包"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
+msgid "Smooth out your XNT farming rewards by joining a pool."
 msgstr "加入農會來獲得穩定的XCH獎勵。"
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
@@ -2092,8 +2092,8 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "在這個區塊的總交易費用。是獎勵給塊農的。"
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "這些是關於農夫如何獲得報酬的說明. 正常的狀況下, 這將是一個 XCH 地址, 但它可以設置為小於 1024 個字符的任何字符串，因此它可以代表另一個區塊鏈或支付系統識別碼."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XNT address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr "這些是關於農夫如何獲得報酬的說明. 正常的狀況下, 這將是一個 XNT 地址, 但它可以設置為小於 1024 個字符的任何字符串，因此它可以代表另一個區塊鏈或支付系統識別碼."
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
@@ -2168,7 +2168,7 @@ msgstr "這個農場目前沒有連線到農會."
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "這個表格顯示上次你的農場試著獲勝的區塊挑戰。<0>了解更多</0>"
 
@@ -2183,6 +2183,10 @@ msgstr "此貿易已包含在區塊鏈中的這個區塊高度"
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Skynet is no longer compatible with the blockchain and can not safely farm."
 msgstr "此版本的 Skynet 不再與區塊鏈相容，因此無法安全地進行耕種。"
+
+#: src/components/farm/FarmLastAttemptedProof.tsx:30
+msgid "Time Consuming(ms)"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"

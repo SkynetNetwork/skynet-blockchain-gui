@@ -26,6 +26,10 @@ const cols = [
     title: <Trans>Proofs Found</Trans>,
   },
   {
+    field: 'timeconsuming',
+    title: <Trans>Time Consuming(ms)</Trans>,
+  },
+  {
     field(row: Row) {
       return moment(row.timestamp * 1000).format('MMM D, h:mm:ss A');
     },
@@ -51,7 +55,7 @@ export default function FarmLastAttemptedProof() {
           challenge.{' '}
           <Link
             target="_blank"
-            href="https://github.com/Skynet-Network/skynet-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it"
+            href="https://github.com/SkynetNetwork/skynet-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it"
           >
             Learn more
           </Link>

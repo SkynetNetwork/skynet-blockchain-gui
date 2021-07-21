@@ -127,7 +127,7 @@ export default function SelectKey() {
     <LayoutHero>
       <Container maxWidth="xs">
         <Flex flexDirection="column" alignItems="center" gap={3}>
-          <Logo width={130} />
+          <Logo width={250} />
           {hasFingerprints ? (
             <Typography variant="h5" component="h1" gutterBottom>
               <Trans>Select Key</Trans>
