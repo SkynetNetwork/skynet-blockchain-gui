@@ -83,32 +83,32 @@ skynet_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_skynet = (mojo) => {
-  return skynet_formatter(Number.parseInt(mojo), 'mojo').to('skynet').value();
+export const synt_to_skynet = (synt) => {
+  return skynet_formatter(Number.parseInt(synt), 'synt').to('skynet').value();
 };
 
-export const skynet_to_mojo = (skynet) => {
+export const skynet_to_synt = (skynet) => {
   return skynet_formatter(Number.parseFloat(Number(skynet)), 'skynet')
-    .to('mojo')
+    .to('synt')
     .value();
 };
 
-export const mojo_to_skynet_string = (mojo) => {
-  return skynet_formatter(Number(mojo), 'mojo').to('skynet').toString();
+export const synt_to_skynet_string = (synt) => {
+  return skynet_formatter(Number(synt), 'synt').to('skynet').toString();
 };
 
-export const mojo_to_colouredcoin = (mojo) => {
-  return skynet_formatter(Number.parseInt(mojo), 'mojo')
+export const synt_to_colouredcoin = (synt) => {
+  return skynet_formatter(Number.parseInt(synt), 'synt')
     .to('colouredcoin')
     .value();
 };
 
-export const colouredcoin_to_mojo = (colouredcoin) => {
+export const colouredcoin_to_synt = (colouredcoin) => {
   return skynet_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
-    .to('mojo')
+    .to('synt')
     .value();
 };
 
-export const mojo_to_colouredcoin_string = (mojo) => {
-  return skynet_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+export const synt_to_colouredcoin_string = (synt) => {
+  return skynet_formatter(Number(synt), 'synt').to('colouredcoin').toString();
 };

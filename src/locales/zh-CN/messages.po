@@ -30,6 +30,10 @@ msgstr "* 想要进一步了解奇亚？来看看一位开源开发者创建的 
 msgid "+ Add New Plot NFT"
 msgstr "+ 添加新的农田NFT"
 
+#: src/components/wallet/Wallets.tsx:123
+msgid "+ Add Wallet"
+msgstr ""
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
 #~ msgstr ""
@@ -42,10 +46,14 @@ msgstr "排序桶数量推荐设置为128"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "收割机是一个在存有农田文件的机器上运行的服务。农民和收割机通过和全节点交互来得到链的状态。你可以在下面看到你网络所连接的收割机。了解更多"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:457
+#: src/electron/main.tsx:544
 msgid "About Skynet Blockchain"
 msgstr "关于奇亚SKYNET区块链项目"
+
+#: src/electron/main.tsx:457
+#~ msgid "About Skynet Blockchain 1.0.0.beta3"
+#~ msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -63,7 +71,7 @@ msgstr "操作"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:82
+#: src/components/fullNode/FullNodeConnections.tsx:115
 #: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "操作"
@@ -88,8 +96,8 @@ msgstr "将农田开垦任务加入队列"
 #: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:232
-#: src/components/plotNFT/PlotNFTCard.tsx:284
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:230
+#: src/components/plotNFT/PlotNFTCard.tsx:272
 msgid "Add a Plot"
 msgstr "开垦农田"
 
@@ -143,8 +151,8 @@ msgstr "初始币数量"
 msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "你确定要删除这个农田吗？删除后将不可恢复。"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:135
-#: src/components/wallet/standard/WalletStandard.tsx:632
+#: src/components/plotNFT/PlotNFTCard.tsx:125
+#: src/components/wallet/standard/WalletStandard.tsx:633
 msgid "Are you sure you want to delete unconfirmed transactions?"
 msgstr "确定要删除未确认的交易吗？"
 
@@ -152,7 +160,7 @@ msgstr "确定要删除未确认的交易吗？"
 msgid "Are you sure you want to disconnect?"
 msgstr "是否要断开连接？"
 
-#: src/electron/main.tsx:197
+#: src/electron/main.tsx:207
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "确定要退出吗? 农田开垦和耕种将会停止。"
 
@@ -270,6 +278,7 @@ msgstr "可备份为助记词"
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:86
 #: src/components/farm/FarmManageFarmingRewards.tsx:196
 #: src/components/fullNode/FullNodeAddConnection.tsx:89
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:123
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:87
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:30
 #: src/components/trading/CreateOffer.jsx:139
@@ -298,15 +307,15 @@ msgstr "挑战哈希"
 msgid "Change"
 msgstr "变更"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:420
+#: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
 #: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
 msgstr "更换农业合作社"
 
-#: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "在Keybase上参与讨论"
+#: src/electron/main.tsx:436
+#~ msgid "Chat on KeyBase"
+#~ msgstr "在Keybase上参与讨论"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -316,7 +325,7 @@ msgstr "选择要开垦的数量"
 msgid "Choose Plot Size"
 msgstr "选择农田文件大小"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:396
+#: src/components/plotNFT/PlotNFTCard.tsx:384
 #: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr "申领奖励"
@@ -360,7 +369,7 @@ msgid "Coloured Coin Options"
 msgstr "染色币选项"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
-#: src/electron/main.tsx:195
+#: src/electron/main.tsx:205
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
 msgstr "确认"
@@ -369,8 +378,8 @@ msgstr "确认"
 msgid "Confirm Disconnect"
 msgstr "确认断开连接"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:131
-#: src/components/wallet/standard/WalletStandard.tsx:628
+#: src/components/plotNFT/PlotNFTCard.tsx:121
+#: src/components/wallet/standard/WalletStandard.tsx:629
 msgid "Confirmation"
 msgstr "确认"
 
@@ -387,7 +396,7 @@ msgid "Connect"
 msgstr "连接"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:68
-#: src/components/fullNode/FullNodeConnections.tsx:112
+#: src/components/fullNode/FullNodeConnections.tsx:145
 msgid "Connect to other peers"
 msgstr "连接到其它节点"
 
@@ -413,15 +422,15 @@ msgstr "连接状态"
 msgid "Connection Status:"
 msgstr "连接状态："
 
-#: src/components/fullNode/FullNodeConnections.tsx:75
+#: src/components/fullNode/FullNodeConnections.tsx:108
 msgid "Connection type"
 msgstr "连接类型"
 
-#: src/components/fullNode/FullNodeConnections.tsx:109
+#: src/components/fullNode/FullNodeConnections.tsx:142
 msgid "Connections"
 msgstr "连接数"
 
-#: src/electron/main.tsx:382
+#: src/electron/main.tsx:417
 msgid "Contribute on GitHub"
 msgstr "在 GitHub 上贡献"
 
@@ -540,13 +549,13 @@ msgstr "正在创建自耕种的农田NFT"
 msgid "Currency code is not defined"
 msgstr "货币代码未定义"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:141
-#: src/components/plotNFT/PlotNFTCard.tsx:193
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:139
+#: src/components/plotNFT/PlotNFTCard.tsx:181
 msgid "Current Difficulty"
 msgstr "当前难度"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:158
-#: src/components/plotNFT/PlotNFTCard.tsx:210
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:156
+#: src/components/plotNFT/PlotNFTCard.tsx:198
 msgid "Current Points Balance"
 msgstr "当前积点余额"
 
@@ -580,10 +589,10 @@ msgstr "延迟"
 #: src/components/plot/PlotAction.tsx:57
 #: src/components/plot/queue/PlotQueueActions.tsx:43
 #: src/components/plot/queue/PlotQueueActions.tsx:97
-#: src/components/plotNFT/PlotNFTCard.tsx:132
+#: src/components/plotNFT/PlotNFTCard.tsx:122
 #: src/components/selectKey/SelectKey.tsx:67
 #: src/components/selectKey/SelectKey.tsx:109
-#: src/components/wallet/standard/WalletStandard.tsx:629
+#: src/components/wallet/standard/WalletStandard.tsx:630
 msgid "Delete"
 msgstr "删除"
 
@@ -592,8 +601,8 @@ msgstr "删除"
 msgid "Delete Plot"
 msgstr "删除农田"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:327
-#: src/components/wallet/standard/WalletStandard.tsx:663
+#: src/components/plotNFT/PlotNFTCard.tsx:315
+#: src/components/wallet/standard/WalletStandard.tsx:675
 msgid "Delete Unconfirmed Transactions"
 msgstr "删除未确认的交易"
 
@@ -618,11 +627,11 @@ msgstr "删除所有密钥将会把你的密钥从你的计算机中永久移除
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "删除此密钥将会把密钥从你的计算机中永久移除，请确保你已经将其备份。确定继续？"
 
-#: src/electron/main.tsx:304
+#: src/electron/main.tsx:339
 msgid "Developer"
 msgstr "开发者"
 
-#: src/electron/main.tsx:307
+#: src/electron/main.tsx:342
 msgid "Developer Tools"
 msgstr "开发者工具"
 
@@ -673,9 +682,15 @@ msgstr "拖放报价文件"
 msgid "Drag and drop your backup file"
 msgstr "拖放你的备份文件"
 
-#: src/electron/main.tsx:263
+#: src/electron/main.tsx:298
 msgid "Edit"
 msgstr "编辑"
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:259
+#: src/components/plotNFT/PlotNFTCard.tsx:301
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:76
+msgid "Edit Payout Instructions"
+msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:147
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Skynet wallet."
@@ -725,7 +740,7 @@ msgstr "不耕种最终输出文件夹"
 msgid "Failed to open (invalid plots)"
 msgstr "打开失败（农田无效）"
 
-#: src/components/dashboard/DashboardSideBar.tsx:55
+#: src/components/dashboard/DashboardSideBar.tsx:56
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:532
 msgid "Farm"
@@ -822,8 +837,8 @@ msgstr "费用"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:290
+#: src/electron/main.tsx:491
 msgid "File"
 msgstr "文件"
 
@@ -842,15 +857,15 @@ msgstr "最终输出文件夹位置"
 msgid "Finished"
 msgstr "已完成"
 
-#: src/electron/main.tsx:407
-msgid "Follow on Twitter"
-msgstr "关注我们的Twitter"
+#: src/electron/main.tsx:442
+#~ msgid "Follow on Twitter"
+#~ msgstr "关注我们的Twitter"
 
-#: src/electron/main.tsx:366
+#: src/electron/main.tsx:401
 msgid "Frequently Asked Questions"
 msgstr "常见问题解答"
 
-#: src/components/dashboard/DashboardSideBar.tsx:39
+#: src/components/dashboard/DashboardSideBar.tsx:40
 #: src/components/fullNode/FullNode.jsx:323
 msgid "Full Node"
 msgstr "全节点"
@@ -863,7 +878,7 @@ msgstr "全节点概览"
 #~ msgid "Full Node Status"
 #~ msgstr "Full Node Status"
 
-#: src/electron/main.tsx:332
+#: src/electron/main.tsx:367
 msgid "Full Screen"
 msgstr "全屏"
 
@@ -901,11 +916,11 @@ msgstr "头部哈希"
 
 #: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:79
+#: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
 msgstr "高度"
 
-#: src/electron/main.tsx:354
+#: src/electron/main.tsx:389
 msgid "Help"
 msgstr "帮助"
 
@@ -995,7 +1010,7 @@ msgstr "无效状态"
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 msgstr "这是一个用于登录农业合作社网站的一次性链接。此链接包含农田NFT对应的农民密钥的签名。并非所有耕种池都支持此功能。"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:418
+#: src/components/plotNFT/PlotNFTCard.tsx:406
 #: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "加入农业合作社"
@@ -1022,7 +1037,7 @@ msgstr "加入农业合作社来获得持续的XCH耕种收益。创建一个农
 msgid "K-Size"
 msgstr "K值大小"
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:67
 msgid "Keys"
 msgstr "密钥"
 
@@ -1043,13 +1058,13 @@ msgstr "最新的收割区块高度"
 msgid "Latest Block Challenges"
 msgstr "最新的区块挑战"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:297
-#: src/components/plotNFT/PlotNFTCard.tsx:362
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:295
+#: src/components/plotNFT/PlotNFTCard.tsx:350
 msgid "Launcher Id"
 msgstr "启动器ID"
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:100
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:99
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:114
 msgid "Learn More"
 msgstr "了解更多"
 
@@ -1065,7 +1080,7 @@ msgstr "列表视图"
 msgid "Loading Plot NFTs"
 msgstr "正在加载农田NFT"
 
-#: src/components/wallet/Wallets.tsx:172
+#: src/components/wallet/Wallets.tsx:112
 msgid "Loading list of wallets"
 msgstr "正在加载钱包列表"
 
@@ -1080,6 +1095,14 @@ msgstr "正在载入……"
 #: src/components/app/AppRouter.tsx:41
 msgid "Logging in"
 msgstr "正在登录"
+
+#: src/components/dashboard/DashboardSideBar.tsx:73
+msgid "Logs"
+msgstr ""
+
+#: src/components/logs/Logs.tsx:42
+#~ msgid "Logs audit"
+#~ msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:124
 #~ msgid "MainWalletList.colouredCoin"
@@ -1129,7 +1152,7 @@ msgstr "管理耕种奖励"
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "管理耕种奖励发放地址"
 
-#: src/components/fullNode/FullNodeConnections.tsx:68
+#: src/components/fullNode/FullNodeConnections.tsx:101
 msgid "MiB Up/Down"
 msgstr "MiB 上传/下载"
 
@@ -1181,7 +1204,7 @@ msgid "Nickname"
 msgstr "昵称"
 
 #: src/components/trading/TradingOverview.jsx:209
-#: src/electron/main.tsx:192
+#: src/electron/main.tsx:202
 msgid "No"
 msgstr "否"
 
@@ -1223,6 +1246,7 @@ msgstr "你的农田还没有通过过滤器检查."
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
 #: src/components/plot/PlotStatus.tsx:19
+#: src/components/plotNFT/PlotNFTCard.tsx:365
 msgid "Not Available"
 msgstr "不可用"
 
@@ -1249,11 +1273,15 @@ msgid "Not found Plots"
 msgstr "未找到农田"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:184
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-msgstr "请注意，这将不会改变你的合作社耕作支付地址。这只会影响旧农田文件，以及0.25XCH的合作社耕作奖励。"
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+#~ msgstr "请注意，这将不会改变你的合作社耕作支付地址。这只会影响旧农田文件，以及0.25XCH的合作社耕作奖励。"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:120
-#: src/components/plotNFT/PlotNFTCard.tsx:172
+#: src/components/farm/FarmManageFarmingRewards.tsx:184
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XNT reward for pooling plots."
+msgstr ""
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:118
+#: src/components/plotNFT/PlotNFTCard.tsx:160
 msgid "Number of Plots"
 msgstr "农田数"
 
@@ -1267,7 +1295,6 @@ msgstr "线程数量"
 
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:87
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:111
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:112
 msgid "OK"
 msgstr "确定"
 
@@ -1287,7 +1314,7 @@ msgstr "每个交易区块平均打包时间为一分钟。通常您的交易将
 msgid "Outgoing"
 msgstr "支出"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:373
+#: src/components/plotNFT/PlotNFTCard.tsx:361
 msgid "Payout Address"
 msgstr ""
 
@@ -1463,7 +1490,7 @@ msgstr "农田与 {0} 重复"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "农田NFT正在过渡到（目标状态）。这可能需要一段时间。请在完成之前不要关闭应用程序。"
 
-#: src/components/dashboard/DashboardSideBar.tsx:50
+#: src/components/dashboard/DashboardSideBar.tsx:51
 msgid "Plots"
 msgstr "农田"
 
@@ -1491,22 +1518,22 @@ msgstr "在开垦农田时启用位域会减少约30%的磁盘写入，而且大
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:176
-#: src/components/plotNFT/PlotNFTCard.tsx:228
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:174
+#: src/components/plotNFT/PlotNFTCard.tsx:216
 msgid "Points Found Since Start"
 msgstr "从开始以来获取的积点"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:187
-#: src/components/plotNFT/PlotNFTCard.tsx:239
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:185
+#: src/components/plotNFT/PlotNFTCard.tsx:227
 msgid "Points Found in Last 24 Hours"
 msgstr "最近24小时获取的积点"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:196
-#: src/components/plotNFT/PlotNFTCard.tsx:248
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:194
+#: src/components/plotNFT/PlotNFTCard.tsx:236
 msgid "Points Successful in Last 24 Hours"
 msgstr "最近24小时成功获取的积点"
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
+#: src/components/dashboard/DashboardSideBar.tsx:61
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr "农业合作社"
@@ -1523,8 +1550,7 @@ msgstr "池密钥"
 msgid "Pool Login Link"
 msgstr "农业合作社登录链接"
 
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:63
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:75
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
 msgid "Pool Payout Instructions"
 msgstr "农业合作社支付说明"
 
@@ -1569,8 +1595,8 @@ msgstr "农业合作社未提供 target_puzzle_hash。"
 msgid "Pool public key:"
 msgstr "奖励池公钥："
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:274
-#: src/components/plotNFT/PlotNFTCard.tsx:339
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:272
+#: src/components/plotNFT/PlotNFTCard.tsx:327
 #: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:57
 msgid "Pool:"
 msgstr "农业合作社："
@@ -1583,7 +1609,7 @@ msgstr "合作社耕作"
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:46
+#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Port"
 msgstr "端口"
 
@@ -1703,11 +1729,15 @@ msgstr "恢复DID钱包"
 msgid "Refresh Plots"
 msgstr "刷新农田列表"
 
+#: src/components/fullNode/FullNodeConnections.tsx:73
+msgid "Region"
+msgstr ""
+
 #: src/components/pool/PoolInfo.tsx:32
 msgid "Relative Lock Height"
 msgstr "相对锁高度"
 
-#: src/electron/main.tsx:374
+#: src/electron/main.tsx:409
 msgid "Release Notes"
 msgstr "版本发布说明"
 
@@ -1719,9 +1749,9 @@ msgstr "删除中"
 msgid "Rename"
 msgstr "重命名"
 
-#: src/electron/main.tsx:393
-msgid "Report an Issue..."
-msgstr "报告问题"
+#: src/electron/main.tsx:428
+#~ msgid "Report an Issue..."
+#~ msgstr "报告问题"
 
 #: src/components/backup/BackupRestore.tsx:160
 msgid "Restore Metadata for Coloured Coins and other Smart Wallets from Backup"
@@ -1741,6 +1771,7 @@ msgid "Safe To Skip"
 msgstr "可安全跳过此步骤"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:199
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:126
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "保存"
@@ -1873,15 +1904,15 @@ msgstr "登录"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "勾选此项，将不会自动把最终目录添加到收割机进行耕种"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:454
 msgid "Skynet"
 msgstr "奇亚"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:393
 msgid "Skynet Blockchain Wiki"
 msgstr "奇亚区块链项目维基"
 
-#: src/components/wallet/standard/WalletStandard.tsx:647
+#: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Skynet Wallet"
 msgstr "奇亚钱包"
 
@@ -1893,7 +1924,7 @@ msgstr "加入农业合作社来稳定XCH耕作收益。"
 msgid "Something went wrong"
 msgstr "出错了"
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:505
 msgid "Speech"
 msgstr "演说"
 
@@ -1932,13 +1963,13 @@ msgstr "状态"
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:59
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:67
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:115
-#: src/components/plotNFT/PlotNFTCard.tsx:157
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:113
+#: src/components/plotNFT/PlotNFTCard.tsx:145
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:53
 msgid "Status"
 msgstr "状态"
 
@@ -2030,6 +2061,14 @@ msgstr "目标迷题哈希"
 msgid "Temporary folder location"
 msgstr "临时文件夹位置"
 
+#: src/components/logs/Logs.tsx:50
+#~ msgid "Terminal"
+#~ msgstr ""
+
+#: src/components/logs/Logs.tsx:161
+msgid "Terminal & logs"
+msgstr ""
+
 #: src/components/app/AppTimeBomb.tsx:30
 msgid "The application will stop working at block height 193536."
 msgstr "这个版本会在区块高度达到193536时停止工作。"
@@ -2091,7 +2130,7 @@ msgstr "本区块上花费的总VDF(延迟验证函数) 或时间验证的迭代
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "本区块上奖励给农民的全部交易费用。"
 
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
 msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XNT address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr "这是农民耕种奖励的支付方式。默认情况下，这将是一个XCH钱包地址，但是你可以设置任意长度小于1024的字符串，也就是说，你可以指定其它区块链或者支付系统标识。"
 
@@ -2103,8 +2142,8 @@ msgstr "这些农田无效，你可能想要删除它们。"
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
 msgstr "在这里可以把事先准备好的农田文件添加进来。如果还没有的话，就去开垦几块农田吧。"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:132
-#: src/components/plotNFT/PlotNFTCard.tsx:184
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:130
+#: src/components/plotNFT/PlotNFTCard.tsx:172
 msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
 msgstr "此难度是比实际网络难度人为降低的难度，它将被用于耕作中，用来发现尽量多的验证数据并发送给农业合作社。你的农田越多，你的难度就会越高。这个难度不会影响你的耕作奖励。"
 
@@ -2142,13 +2181,13 @@ msgstr "这里是你的私钥所控制的, 到目前最新子块高度为止的�
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "目前结余+待处理的结余: 在链上确认完成后就是你的最终总结余."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:151
-#: src/components/plotNFT/PlotNFTCard.tsx:203
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:149
+#: src/components/plotNFT/PlotNFTCard.tsx:191
 msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
 msgstr "这是此农田NFT自从上次支付奖励后在当前农业合作社中持有的总积点数。在农业合作社支付奖励后，此积点数会归零。"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:168
-#: src/components/plotNFT/PlotNFTCard.tsx:220
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:166
+#: src/components/plotNFT/PlotNFTCard.tsx:208
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr "这是你的农民在这个农田NFT对应的农田中找到的总积点数。一个k32的农田每天大约会得到10个积点。也就是说，如果你拥有10TiB的农田，你每天大约会获得1000积点，也就是每小时41积点。"
 
@@ -2156,7 +2195,7 @@ msgstr "这是你的农民在这个农田NFT对应的农田中找到的总积点
 msgid "This node is fully caught up and validating the network"
 msgstr "本节点已完成同步，并已开始参与网络验证"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:310
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:308
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
 msgstr "此农田NFT绑定了其它密钥。你仍然可以用此农田NFT开垦农田，但是你无法进行任何更改。"
 
@@ -2226,7 +2265,7 @@ msgstr "总农田大小："
 msgid "Total Size of Plots"
 msgstr "总农田大小："
 
-#: src/components/farm/card/FarmCardTotalSKYNETFarmed.tsx:15
+#: src/components/farm/card/FarmCardTotalSkynetFarmed.tsx:15
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
@@ -2282,7 +2321,7 @@ msgstr "类别"
 msgid "Unable to create plot NFT"
 msgstr "无法创建农田NFT"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:162
+#: src/components/plotNFT/PlotNFTCard.tsx:150
 #: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr "未申领奖励"
@@ -2324,7 +2363,7 @@ msgstr "值似乎过高"
 msgid "Verify Pool Details"
 msgstr "验证农业合作社详情"
 
-#: src/electron/main.tsx:295
+#: src/electron/main.tsx:330
 msgid "View"
 msgstr "查看"
 
@@ -2342,7 +2381,7 @@ msgstr "查看出价"
 #~ msgid "View Payout Instructions"
 #~ msgstr "View Payout Instructions"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:298
+#: src/components/plotNFT/PlotNFTCard.tsx:286
 msgid "View Pool Login Link"
 msgstr "查看农业合作社登录地址"
 
@@ -2374,7 +2413,7 @@ msgid "Waiting for the transaction to be confirmed"
 msgstr "正在等待交易确认"
 
 #: src/components/pool/PoolOverview.tsx:185
-#: src/components/wallet/standard/WalletStandard.tsx:674
+#: src/components/wallet/standard/WalletStandard.tsx:657
 msgid "Wallet Status:"
 msgstr "钱包状态："
 
@@ -2406,8 +2445,8 @@ msgstr "钱包状态："
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:45
-#: src/components/wallet/Wallets.tsx:173
+#: src/components/dashboard/DashboardSideBar.tsx:46
+#: src/components/wallet/Wallets.tsx:113
 msgid "Wallets"
 msgstr "钱包"
 
@@ -2459,7 +2498,7 @@ msgstr "欢迎使用奇亚! 下面的词语列表是你的钱包密语, 请务�
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "当你从管理员那收到这个设置信息后, 请把它输入到下面以便完成费用限定型钱包设置:"
 
-#: src/electron/main.tsx:340
+#: src/electron/main.tsx:375
 msgid "Window"
 msgstr "窗口"
 
@@ -2469,7 +2508,7 @@ msgstr "不含交易费"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:35
 #: src/components/trading/TradingOverview.jsx:209
-#: src/electron/main.tsx:193
+#: src/electron/main.tsx:203
 msgid "Yes"
 msgstr "是"
 
@@ -2482,7 +2521,7 @@ msgstr "你当前处于待处理状态，请等待区块链确认。"
 msgid "You are not self pooling"
 msgstr "你目前没有自耕种"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:436
+#: src/components/plotNFT/PlotNFTCard.tsx:424
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr "你现在可以使用这个农田NFT开垦新农田，但是在同步完成前，你不能进行任何更改。"
 
@@ -2559,16 +2598,16 @@ msgid "[Error 22] File not found. Most likely one of the plot folders in your co
 msgstr "[错误 22] 文件未找到。农田文件夹中的 config.yaml 文件可能存在问题。"
 
 #: src/components/wallet/WalletStatusCard.tsx:41
-#: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/Wallets.tsx:78
 msgid "connections:"
 msgstr "连接："
 
 #: src/components/wallet/WalletStatusCard.tsx:33
-#: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/Wallets.tsx:70
 msgid "height:"
 msgstr "高度："
 
-#: src/components/wallet/Wallets.tsx:129
+#: src/components/wallet/Wallets.tsx:64
 msgid "not synced"
 msgstr "未同步"
 
@@ -2577,17 +2616,17 @@ msgid "p2_singleton_puzzle_hash is not defined"
 msgstr "p2_singleton_puzzle_hash 未定义"
 
 #: src/components/wallet/WalletStatusCard.tsx:27
-#: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/Wallets.tsx:58
 msgid "status:"
 msgstr "状态："
 
 #: src/components/wallet/WalletStatusCard.tsx:29
-#: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/Wallets.tsx:63
 msgid "synced"
 msgstr "已同步"
 
 #: src/components/wallet/WalletStatusCard.tsx:29
-#: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/Wallets.tsx:62
 msgid "syncing"
 msgstr "同步中"
 
@@ -2616,5 +2655,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} 用户交易费用"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
-msgstr "{mojo, plural, one {mojo} other {mojos}}"
+msgid "{synt, plural, one {synt} other {synts}}"
+msgstr "{synt, plural, one {synt} other {synts}}"

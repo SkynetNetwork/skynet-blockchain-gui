@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
-import { mojo_to_skynet_string } from '../../../util/skynet';
+import { synt_to_skynet_string } from '../../../util/skynet';
 
 type Props = {
   wallet_id: number;
@@ -32,7 +32,7 @@ export default function WalletCardSpendableBalance(props: Props) {
       }
       value={
         <>
-          {mojo_to_skynet_string(value)} {currencyCode}
+          {synt_to_skynet_string(value)} {currencyCode}
         </>
       }
     />

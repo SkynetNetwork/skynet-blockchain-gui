@@ -6,10 +6,20 @@ import {
 } from '@material-ui/core';
 import styled from 'styled-components';
 import Flex from '../Flex';
+import icon from '../../../../assets/img/skynet_loading.gif';
+
 
 const StyledCircularProgress = styled(CircularProgress)`
   color: ${({ theme }) =>
     theme.palette.type === 'dark' ? 'white' : 'inherit'}; ;
+`;
+
+const StyledLogoContainer = styled.div`
+  width: 50px;
+  img {
+    height: 50px;
+    margin-bottom: 2rem;
+  }
 `;
 
 type Props = CircularProgressProps & {
@@ -24,6 +34,7 @@ export default function Loading(props: Props) {
     return (
       <Flex flexDirection="column" gap={1} alignItems="center">
         <StyledCircularProgress {...rest} />
+        
         <Typography variant="body1" align="center">
           {children}
         </Typography>
@@ -38,7 +49,10 @@ export default function Loading(props: Props) {
         gap={1}
         alignItems="center"
       >
-        <StyledCircularProgress {...rest} />
+          <StyledLogoContainer>
+            <img src={icon} />
+          </StyledLogoContainer>
+        {/* <StyledCircularProgress {...rest} /> */}
       </Flex>
     );
   }

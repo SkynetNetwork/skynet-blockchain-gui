@@ -15,7 +15,7 @@ import {
 import { AlertDialog, Card, Flex } from '@skynet/core';
 import isElectron from 'is-electron';
 import { newBuy, newSell, addTrade, resetTrades } from '../../modules/trade';
-import { skynet_to_mojo, colouredcoin_to_mojo } from '../../util/skynet';
+import { skynet_to_synt, colouredcoin_to_synt } from '../../util/skynet';
 import { openDialog } from '../../modules/dialog';
 import { create_trade_action } from '../../modules/trade_messages';
 import { COLOURED_COIN } from '../../util/wallet_types';
@@ -79,15 +79,15 @@ export default function CreateOffer() {
       );
       return;
     }
-    const mojo =
+    const synt =
       wallets[wallet_id.value].type === COLOURED_COIN
-        ? colouredcoin_to_mojo(amount_input.value)
-        : skynet_to_mojo(amount_input.value);
+        ? colouredcoin_to_synt(amount_input.value)
+        : skynet_to_synt(amount_input.value);
 
     const trade =
       buy_or_sell.value === 1
-        ? newBuy(mojo, wallet_id.value)
-        : newSell(mojo, wallet_id.value);
+        ? newBuy(synt, wallet_id.value)
+        : newSell(synt, wallet_id.value);
 
     dispatch(addTrade(trade));
   }

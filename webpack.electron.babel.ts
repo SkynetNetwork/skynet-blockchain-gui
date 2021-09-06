@@ -24,6 +24,12 @@ export default {
       use: [{
         loader: 'file-loader',
       }],
+    }, {
+      test: /\.node$/,
+      loader: 'node-loader',
+      options: {
+        name: "[path][name].[ext]",
+      },
     }],
   },
   output: {

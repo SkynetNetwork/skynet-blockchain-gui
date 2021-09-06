@@ -2202,7 +2202,7 @@ msgstr "Đến"
 msgid "Total Balance"
 msgstr "Tổng số dư"
 
-#: src/components/farm/card/FarmCardTotalSKYNETFarmed.tsx:15
+#: src/components/farm/card/FarmCardTotalSkynetFarmed.tsx:15
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
@@ -2599,7 +2599,7 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} phần thưởng khối"
 
-#: src/components/farm/card/FarmCardTotalSKYNETFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalSkynetFarmed.tsx:29
 msgid "{currencyCode} Total Skynet Farmed"
 msgstr "{currencyCode} Tổng số Skynet thu được"
 
@@ -2608,6 +2608,6 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Phí giao dịch của người dùng"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+msgid "{synt, plural, one {synt} other {synts}}"
 msgstr ""
 

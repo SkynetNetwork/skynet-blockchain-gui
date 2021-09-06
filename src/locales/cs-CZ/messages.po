@@ -30,6 +30,10 @@ msgstr "*Chcete se o Skynet blocích dozvědět více? Podívej se na <0>Skynet 
 msgid "+ Add New Plot NFT"
 msgstr "+ Přidat nové vykreslování NFT"
 
+#: src/components/wallet/Wallets.tsx:123
+msgid "+ Add Wallet"
+msgstr ""
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
 #~ msgstr ""
@@ -42,10 +46,14 @@ msgstr "Doporučuje se 128"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Tzv. harvester (sklízeč) je služba provozovaná na počítači, kde jsou uložená i samotná pole. Tzv. farmer (farmář) spolu s harvesterem komunikují s uzlem za účelem získání stavu blockchainu. Seznam připojených harvesterů vidíte níže"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:457
+#: src/electron/main.tsx:544
 msgid "About Skynet Blockchain"
 msgstr "O Skynet Blockchainu"
+
+#: src/electron/main.tsx:457
+#~ msgid "About Skynet Blockchain 1.0.0.beta3"
+#~ msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -63,7 +71,7 @@ msgstr "Akce"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:82
+#: src/components/fullNode/FullNodeConnections.tsx:115
 #: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Akce"
@@ -88,8 +96,8 @@ msgstr "Přidat pole do fronty"
 #: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:232
-#: src/components/plotNFT/PlotNFTCard.tsx:284
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:230
+#: src/components/plotNFT/PlotNFTCard.tsx:272
 msgid "Add a Plot"
 msgstr "Přidat Pole"
 
@@ -143,8 +151,8 @@ msgstr "Částka pro počáteční minci"
 msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "Jste si jisti, že chcete pole odstranit? Pole nelze obnovit."
 
-#: src/components/plotNFT/PlotNFTCard.tsx:135
-#: src/components/wallet/standard/WalletStandard.tsx:632
+#: src/components/plotNFT/PlotNFTCard.tsx:125
+#: src/components/wallet/standard/WalletStandard.tsx:633
 msgid "Are you sure you want to delete unconfirmed transactions?"
 msgstr "Opravdu chcete odstranit nepotvrzenou transakci?"
 
@@ -152,7 +160,7 @@ msgstr "Opravdu chcete odstranit nepotvrzenou transakci?"
 msgid "Are you sure you want to disconnect?"
 msgstr "Opravdu se chcete odpojit?"
 
-#: src/electron/main.tsx:197
+#: src/electron/main.tsx:207
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "Opravdu chcete odejít? Vytváření aktuálních polí bude ztraceno a farmaření zastaveno."
 
@@ -270,6 +278,7 @@ msgstr "Lze zálohovat do sledu 24 slov"
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:86
 #: src/components/farm/FarmManageFarmingRewards.tsx:196
 #: src/components/fullNode/FullNodeAddConnection.tsx:89
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:123
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:87
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:30
 #: src/components/trading/CreateOffer.jsx:139
@@ -298,15 +307,15 @@ msgstr "Hash výzva"
 msgid "Change"
 msgstr "Změnit"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:420
+#: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
 #: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
 msgstr "Změnit sdružení"
 
-#: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Chat na KeyBase"
+#: src/electron/main.tsx:436
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Chat na KeyBase"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -316,7 +325,7 @@ msgstr "Zvolte počet polí"
 msgid "Choose Plot Size"
 msgstr "Zvolte velikost pole"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:396
+#: src/components/plotNFT/PlotNFTCard.tsx:384
 #: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr "Vyzvednout odměnu"
@@ -360,7 +369,7 @@ msgid "Coloured Coin Options"
 msgstr "Nastavení Barevné Mince"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
-#: src/electron/main.tsx:195
+#: src/electron/main.tsx:205
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
 msgstr "Potvrdit"
@@ -369,8 +378,8 @@ msgstr "Potvrdit"
 msgid "Confirm Disconnect"
 msgstr "Potvrdit odpojení"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:131
-#: src/components/wallet/standard/WalletStandard.tsx:628
+#: src/components/plotNFT/PlotNFTCard.tsx:121
+#: src/components/wallet/standard/WalletStandard.tsx:629
 msgid "Confirmation"
 msgstr "Potvrzení"
 
@@ -387,7 +396,7 @@ msgid "Connect"
 msgstr "Připojit"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:68
-#: src/components/fullNode/FullNodeConnections.tsx:112
+#: src/components/fullNode/FullNodeConnections.tsx:145
 msgid "Connect to other peers"
 msgstr "Připojit k dalším peerům"
 
@@ -413,15 +422,15 @@ msgstr "Stav připojení"
 msgid "Connection Status:"
 msgstr "Stav připojení:"
 
-#: src/components/fullNode/FullNodeConnections.tsx:75
+#: src/components/fullNode/FullNodeConnections.tsx:108
 msgid "Connection type"
 msgstr "Typ připojení"
 
-#: src/components/fullNode/FullNodeConnections.tsx:109
+#: src/components/fullNode/FullNodeConnections.tsx:142
 msgid "Connections"
 msgstr "Připojení"
 
-#: src/electron/main.tsx:382
+#: src/electron/main.tsx:417
 msgid "Contribute on GitHub"
 msgstr "Pomoci s vývojem na GitHubu"
 
@@ -540,13 +549,13 @@ msgstr "Vytváří se NFT pole pro vlastní poolování"
 msgid "Currency code is not defined"
 msgstr "Kód měny není definován"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:141
-#: src/components/plotNFT/PlotNFTCard.tsx:193
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:139
+#: src/components/plotNFT/PlotNFTCard.tsx:181
 msgid "Current Difficulty"
 msgstr "Aktuální obtížnost"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:158
-#: src/components/plotNFT/PlotNFTCard.tsx:210
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:156
+#: src/components/plotNFT/PlotNFTCard.tsx:198
 msgid "Current Points Balance"
 msgstr "Aktuální počet bodů"
 
@@ -580,10 +589,10 @@ msgstr "Zpoždění"
 #: src/components/plot/PlotAction.tsx:57
 #: src/components/plot/queue/PlotQueueActions.tsx:43
 #: src/components/plot/queue/PlotQueueActions.tsx:97
-#: src/components/plotNFT/PlotNFTCard.tsx:132
+#: src/components/plotNFT/PlotNFTCard.tsx:122
 #: src/components/selectKey/SelectKey.tsx:67
 #: src/components/selectKey/SelectKey.tsx:109
-#: src/components/wallet/standard/WalletStandard.tsx:629
+#: src/components/wallet/standard/WalletStandard.tsx:630
 msgid "Delete"
 msgstr "Odstranit"
 
@@ -592,8 +601,8 @@ msgstr "Odstranit"
 msgid "Delete Plot"
 msgstr "Smazat pole"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:327
-#: src/components/wallet/standard/WalletStandard.tsx:663
+#: src/components/plotNFT/PlotNFTCard.tsx:315
+#: src/components/wallet/standard/WalletStandard.tsx:675
 msgid "Delete Unconfirmed Transactions"
 msgstr "Odstranit nepotvrzené transakce"
 
@@ -618,11 +627,11 @@ msgstr "Smazáním klíčů permanentně odeberete všechny klíče z počítač
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Smazáním klíče tento klíč nevratně odeberete z počítače. Ujistěte se, že máte zálohu. Jste si jisti, že chcete pokračovat?"
 
-#: src/electron/main.tsx:304
+#: src/electron/main.tsx:339
 msgid "Developer"
 msgstr "Vývojář"
 
-#: src/electron/main.tsx:307
+#: src/electron/main.tsx:342
 msgid "Developer Tools"
 msgstr "Vývojářské nástroje"
 
@@ -673,9 +682,15 @@ msgstr "Přetáhněte soubor nabídky"
 msgid "Drag and drop your backup file"
 msgstr "Přetáhněte soubor zálohy"
 
-#: src/electron/main.tsx:263
+#: src/electron/main.tsx:298
 msgid "Edit"
 msgstr "Upravit"
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:259
+#: src/components/plotNFT/PlotNFTCard.tsx:301
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:76
+msgid "Edit Payout Instructions"
+msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:147
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Skynet wallet."
@@ -725,7 +740,7 @@ msgstr "Vynechat cílovou složku"
 msgid "Failed to open (invalid plots)"
 msgstr "Nepodařilo se otevřít (neplatná pole)"
 
-#: src/components/dashboard/DashboardSideBar.tsx:55
+#: src/components/dashboard/DashboardSideBar.tsx:56
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:532
 msgid "Farm"
@@ -822,8 +837,8 @@ msgstr "Výše poplatků"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:290
+#: src/electron/main.tsx:491
 msgid "File"
 msgstr "Soubor"
 
@@ -842,15 +857,15 @@ msgstr "Umístění konečné složky"
 msgid "Finished"
 msgstr "Dokončeno"
 
-#: src/electron/main.tsx:407
-msgid "Follow on Twitter"
-msgstr "Sledovat na Twitteru"
+#: src/electron/main.tsx:442
+#~ msgid "Follow on Twitter"
+#~ msgstr "Sledovat na Twitteru"
 
-#: src/electron/main.tsx:366
+#: src/electron/main.tsx:401
 msgid "Frequently Asked Questions"
 msgstr "Často kladené otázky"
 
-#: src/components/dashboard/DashboardSideBar.tsx:39
+#: src/components/dashboard/DashboardSideBar.tsx:40
 #: src/components/fullNode/FullNode.jsx:323
 msgid "Full Node"
 msgstr "Uzel"
@@ -863,7 +878,7 @@ msgstr "Přehled uzlu"
 #~ msgid "Full Node Status"
 #~ msgstr "Full Node Status"
 
-#: src/electron/main.tsx:332
+#: src/electron/main.tsx:367
 msgid "Full Screen"
 msgstr "Celá obrazovka"
 
@@ -901,11 +916,11 @@ msgstr "Hash hlavičky"
 
 #: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:79
+#: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
 msgstr "Výška"
 
-#: src/electron/main.tsx:354
+#: src/electron/main.tsx:389
 msgid "Help"
 msgstr "Nápověda"
 
@@ -995,7 +1010,7 @@ msgstr "Neplatný stav"
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 msgstr "Je to jednorázový přihlašovací odkaz, který může být použit k přihlášení na webovou stránku poolu. Obsahuje podpis používající klíč farmáře z NFT pole. Ne všechny pooly podporují tuto funkci."
 
-#: src/components/plotNFT/PlotNFTCard.tsx:418
+#: src/components/plotNFT/PlotNFTCard.tsx:406
 #: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "Připojit se k poolu"
@@ -1022,7 +1037,7 @@ msgstr "Připojte se k poolu a získejte konzistentní farmářskou odměnu XNT.
 msgid "K-Size"
 msgstr "K - velikost"
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:67
 msgid "Keys"
 msgstr "Klíče"
 
@@ -1043,13 +1058,13 @@ msgstr "Poslední farmařená výška"
 msgid "Latest Block Challenges"
 msgstr "Poslední blokové výzvy"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:297
-#: src/components/plotNFT/PlotNFTCard.tsx:362
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:295
+#: src/components/plotNFT/PlotNFTCard.tsx:350
 msgid "Launcher Id"
 msgstr "Id spouštěče"
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:100
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:99
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:114
 msgid "Learn More"
 msgstr "Zjistit více"
 
@@ -1065,7 +1080,7 @@ msgstr "Zobrazení jako seznam"
 msgid "Loading Plot NFTs"
 msgstr "Načítání NFT polí"
 
-#: src/components/wallet/Wallets.tsx:172
+#: src/components/wallet/Wallets.tsx:112
 msgid "Loading list of wallets"
 msgstr "Načítání seznamu peněženek"
 
@@ -1080,6 +1095,14 @@ msgstr "Načítá se..."
 #: src/components/app/AppRouter.tsx:41
 msgid "Logging in"
 msgstr "Probíhá přihlašování"
+
+#: src/components/dashboard/DashboardSideBar.tsx:73
+msgid "Logs"
+msgstr ""
+
+#: src/components/logs/Logs.tsx:42
+#~ msgid "Logs audit"
+#~ msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:124
 #~ msgid "MainWalletList.colouredCoin"
@@ -1129,7 +1152,7 @@ msgstr "Spravovat odměny z farmaření"
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Cílové adresy odměn z farmaření"
 
-#: src/components/fullNode/FullNodeConnections.tsx:68
+#: src/components/fullNode/FullNodeConnections.tsx:101
 msgid "MiB Up/Down"
 msgstr "MiB odesláno/přijato"
 
@@ -1181,7 +1204,7 @@ msgid "Nickname"
 msgstr "Uživatelské jméno"
 
 #: src/components/trading/TradingOverview.jsx:209
-#: src/electron/main.tsx:192
+#: src/electron/main.tsx:202
 msgid "No"
 msgstr "Ne"
 
@@ -1223,6 +1246,7 @@ msgstr "Žádné z vašich polí dosud neprošlo filtrem poli."
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
 #: src/components/plot/PlotStatus.tsx:19
+#: src/components/plotNFT/PlotNFTCard.tsx:365
 msgid "Not Available"
 msgstr "Nedostupný"
 
@@ -1249,11 +1273,15 @@ msgid "Not found Plots"
 msgstr "Pole nenalezena"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:184
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-msgstr "Všimněte si, že toto nezmění vaše pool adresy. To se týká pouze starého formátu polí a odměny 0,25XCH pool polí."
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+#~ msgstr "Všimněte si, že toto nezmění vaše pool adresy. To se týká pouze starého formátu polí a odměny 0,25XCH pool polí."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:120
-#: src/components/plotNFT/PlotNFTCard.tsx:172
+#: src/components/farm/FarmManageFarmingRewards.tsx:184
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XNT reward for pooling plots."
+msgstr ""
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:118
+#: src/components/plotNFT/PlotNFTCard.tsx:160
 msgid "Number of Plots"
 msgstr "Počet polí"
 
@@ -1267,7 +1295,6 @@ msgstr "Počet vláken"
 
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:87
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:111
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:112
 msgid "OK"
 msgstr "OK"
 
@@ -1287,7 +1314,7 @@ msgstr "Mezi každým transakčním blokem je v průměru jedna minuta. Pokud ne
 msgid "Outgoing"
 msgstr "Odchozí"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:373
+#: src/components/plotNFT/PlotNFTCard.tsx:361
 msgid "Payout Address"
 msgstr ""
 
@@ -1463,7 +1490,7 @@ msgstr "Pole je duplikát {0}"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "NFT pole se mění na (cílový stav). Může to chvíli trvat. Prosím nezavírejte aplikaci, dokud nebude tato akce dokončena."
 
-#: src/components/dashboard/DashboardSideBar.tsx:50
+#: src/components/dashboard/DashboardSideBar.tsx:51
 msgid "Plots"
 msgstr "Pole"
 
@@ -1491,22 +1518,22 @@ msgstr "Vykreslování s bitovým polem umožňuje až o 30% méně zápisů a j
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:176
-#: src/components/plotNFT/PlotNFTCard.tsx:228
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:174
+#: src/components/plotNFT/PlotNFTCard.tsx:216
 msgid "Points Found Since Start"
 msgstr "Body nalezené od začátku"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:187
-#: src/components/plotNFT/PlotNFTCard.tsx:239
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:185
+#: src/components/plotNFT/PlotNFTCard.tsx:227
 msgid "Points Found in Last 24 Hours"
 msgstr "Body nalezené za posledních 24 hodin"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:196
-#: src/components/plotNFT/PlotNFTCard.tsx:248
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:194
+#: src/components/plotNFT/PlotNFTCard.tsx:236
 msgid "Points Successful in Last 24 Hours"
 msgstr "Body úspěšné v posledních 24 hodinách"
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
+#: src/components/dashboard/DashboardSideBar.tsx:61
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr "Pool"
@@ -1523,8 +1550,7 @@ msgstr "Klíč poolu"
 msgid "Pool Login Link"
 msgstr "Přihlašovací odkaz do poolu"
 
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:63
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:75
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
 msgid "Pool Payout Instructions"
 msgstr "Pokyny k výplatě z poolu"
 
@@ -1569,8 +1595,8 @@ msgstr "Pool neposkytuje target_puzzle_hash."
 msgid "Pool public key:"
 msgstr "Veřejný klíč poolu:"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:274
-#: src/components/plotNFT/PlotNFTCard.tsx:339
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:272
+#: src/components/plotNFT/PlotNFTCard.tsx:327
 #: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:57
 msgid "Pool:"
 msgstr "Pool:"
@@ -1583,7 +1609,7 @@ msgstr "Poolování"
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:46
+#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Port"
 msgstr "Port"
 
@@ -1703,11 +1729,15 @@ msgstr "Obnovit DID peněženku"
 msgid "Refresh Plots"
 msgstr "Obnovit Pole"
 
+#: src/components/fullNode/FullNodeConnections.tsx:73
+msgid "Region"
+msgstr ""
+
 #: src/components/pool/PoolInfo.tsx:32
 msgid "Relative Lock Height"
 msgstr ""
 
-#: src/electron/main.tsx:374
+#: src/electron/main.tsx:409
 msgid "Release Notes"
 msgstr "Poznámky k vydání"
 
@@ -1719,9 +1749,9 @@ msgstr "Odebírání"
 msgid "Rename"
 msgstr "Přejmenovat"
 
-#: src/electron/main.tsx:393
-msgid "Report an Issue..."
-msgstr "Nahlásit chybu..."
+#: src/electron/main.tsx:428
+#~ msgid "Report an Issue..."
+#~ msgstr "Nahlásit chybu..."
 
 #: src/components/backup/BackupRestore.tsx:160
 msgid "Restore Metadata for Coloured Coins and other Smart Wallets from Backup"
@@ -1741,6 +1771,7 @@ msgid "Safe To Skip"
 msgstr "Přeskočit"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:199
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:126
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "Uložit"
@@ -1873,15 +1904,15 @@ msgstr "Přihlásit se"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Přeskočí využití cílové složky pro farmaření"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:454
 msgid "Skynet"
 msgstr "Skynet"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:393
 msgid "Skynet Blockchain Wiki"
 msgstr "Skynet Blockchain Wiki"
 
-#: src/components/wallet/standard/WalletStandard.tsx:647
+#: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Skynet Wallet"
 msgstr "Skynet peněženka"
 
@@ -1893,7 +1924,7 @@ msgstr "Stabilizujte odměny za vaše farmení XNT přidáním do poolu."
 msgid "Something went wrong"
 msgstr "Něco se pokazilo"
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:505
 msgid "Speech"
 msgstr "Řeč"
 
@@ -1932,13 +1963,13 @@ msgstr "Stav"
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:59
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:67
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:115
-#: src/components/plotNFT/PlotNFTCard.tsx:157
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:113
+#: src/components/plotNFT/PlotNFTCard.tsx:145
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:53
 msgid "Status"
 msgstr "Stav"
 
@@ -2030,6 +2061,14 @@ msgstr ""
 msgid "Temporary folder location"
 msgstr "Umístění dočasné složky"
 
+#: src/components/logs/Logs.tsx:50
+#~ msgid "Terminal"
+#~ msgstr ""
+
+#: src/components/logs/Logs.tsx:161
+msgid "Terminal & logs"
+msgstr ""
+
 #: src/components/app/AppTimeBomb.tsx:30
 msgid "The application will stop working at block height 193536."
 msgstr "Aplikace přestane pracovat při výšce bloku 193536."
@@ -2091,7 +2130,7 @@ msgstr "Celkový počet VDF (verifiable delay function) nebo tzv. proof of time 
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Souhrnná výše transakčních poplatků v tomto bloku. Vyplaceno farmářům."
 
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
 msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XNT address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr "Toto jsou instrukce, jak chce farmář dostávat platbu. Ve výchozím nastavení se jedná o adresu XNT, ale může být nastaven libovolný řetězec o velikosti menší než 1024 znaků, aby mohl zastupovat jiný blockchain nebo identifikátor platebního systému."
 
@@ -2103,8 +2142,8 @@ msgstr "Tato pole jsou neplatná, možná je chcete smazat."
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
 msgstr "To vám umožní přidat adresář, který obsahuje pole. Pokud jste nevytvořili žádná pole, přejděte na obrazovku tvorby polí."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:132
-#: src/components/plotNFT/PlotNFTCard.tsx:184
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:130
+#: src/components/plotNFT/PlotNFTCard.tsx:172
 msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
 msgstr ""
 
@@ -2142,13 +2181,13 @@ msgstr "Celkový počet Skynet v blockchainu při aktuální sub bloku kontrolov
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "Celkový zůstatek plus čekající transakce. Jinými slovy: celkový zůstatek po schválení čekajících transakcí."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:151
-#: src/components/plotNFT/PlotNFTCard.tsx:203
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:149
+#: src/components/plotNFT/PlotNFTCard.tsx:191
 msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
 msgstr "Jedná se o celkový počet bodů, které má toto NFT pole s tímto poolem, od poslední výplaty. Po provedení výplaty se body poolu resetují."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:168
-#: src/components/plotNFT/PlotNFTCard.tsx:220
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:166
+#: src/components/plotNFT/PlotNFTCard.tsx:208
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr "Toto je celkový počet bodů, které váš farmář nalezl pro toto NFT pole. Každé k32 pole dostane asi 10 bodů denně, takže pokud máte 10TiB, měl by očekávat okolo 1000 bodů denně, nebo 41 bodů za hodinu."
 
@@ -2156,7 +2195,7 @@ msgstr "Toto je celkový počet bodů, které váš farmář nalezl pro toto NFT
 msgid "This node is fully caught up and validating the network"
 msgstr "Jste plně synchronizováni se sítí"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:310
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:308
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
 msgstr "Toto NFT pole je přiřazeno k jinému klíči. Stále můžete vytvářet pole pro toto NFT pole, ale nemůžete provádět změny."
 
@@ -2226,7 +2265,7 @@ msgstr "Celková velikost pole:"
 msgid "Total Size of Plots"
 msgstr "Celková velikost polí"
 
-#: src/components/farm/card/FarmCardTotalSKYNETFarmed.tsx:15
+#: src/components/farm/card/FarmCardTotalSkynetFarmed.tsx:15
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
@@ -2282,7 +2321,7 @@ msgstr "Typ"
 msgid "Unable to create plot NFT"
 msgstr "Nelze vytvořit NFT pole"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:162
+#: src/components/plotNFT/PlotNFTCard.tsx:150
 #: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr "Nevyzvednuté odměny"
@@ -2324,7 +2363,7 @@ msgstr "Hodnota se zdá vysoká"
 msgid "Verify Pool Details"
 msgstr "Ověřit detaily poolu"
 
-#: src/electron/main.tsx:295
+#: src/electron/main.tsx:330
 msgid "View"
 msgstr "Zobrazení"
 
@@ -2342,7 +2381,7 @@ msgstr "Zobrazit nabídku"
 #~ msgid "View Payout Instructions"
 #~ msgstr "View Payout Instructions"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:298
+#: src/components/plotNFT/PlotNFTCard.tsx:286
 msgid "View Pool Login Link"
 msgstr "Zobrazit odkaz pro přihlášení do Poolu"
 
@@ -2374,7 +2413,7 @@ msgid "Waiting for the transaction to be confirmed"
 msgstr "Čekání na potvrzení transakce"
 
 #: src/components/pool/PoolOverview.tsx:185
-#: src/components/wallet/standard/WalletStandard.tsx:674
+#: src/components/wallet/standard/WalletStandard.tsx:657
 msgid "Wallet Status:"
 msgstr "Stav peněženky:"
 
@@ -2406,8 +2445,8 @@ msgstr "Stav peněženky:"
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:45
-#: src/components/wallet/Wallets.tsx:173
+#: src/components/dashboard/DashboardSideBar.tsx:46
+#: src/components/wallet/Wallets.tsx:113
 msgid "Wallets"
 msgstr "Peněženky"
 
@@ -2459,7 +2498,7 @@ msgstr "Vítejte! Následující slova použijte pro zazálohování své peně�
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "Pro dokončení registrace Rate Limited peněženky potřebujete instalační paket. Ten obdržíte od svého správce a vyplníte ho zde:"
 
-#: src/electron/main.tsx:340
+#: src/electron/main.tsx:375
 msgid "Window"
 msgstr "Okno"
 
@@ -2469,7 +2508,7 @@ msgstr "Bez poplatků"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:35
 #: src/components/trading/TradingOverview.jsx:209
-#: src/electron/main.tsx:193
+#: src/electron/main.tsx:203
 msgid "Yes"
 msgstr "Ano"
 
@@ -2482,7 +2521,7 @@ msgstr "Jste ve stavu čekající na potvrzení. Počkejte prosím na potvrzení
 msgid "You are not self pooling"
 msgstr "Neprobíhá vlastní poolování"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:436
+#: src/components/plotNFT/PlotNFTCard.tsx:424
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr "Stále můžete vytvářet pole pro toto NFT pole, ale nemůžete provádět změny, dokud nebude synchronizace dokončena."
 
@@ -2559,16 +2598,16 @@ msgid "[Error 22] File not found. Most likely one of the plot folders in your co
 msgstr "[Chyba 22] Soubor nenalezen. Jedna ze složek polí v konfiguraci má pravděpodobně potíže."
 
 #: src/components/wallet/WalletStatusCard.tsx:41
-#: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/Wallets.tsx:78
 msgid "connections:"
 msgstr "spojení:"
 
 #: src/components/wallet/WalletStatusCard.tsx:33
-#: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/Wallets.tsx:70
 msgid "height:"
 msgstr "výška:"
 
-#: src/components/wallet/Wallets.tsx:129
+#: src/components/wallet/Wallets.tsx:64
 msgid "not synced"
 msgstr "nesynchronizováno"
 
@@ -2577,17 +2616,17 @@ msgid "p2_singleton_puzzle_hash is not defined"
 msgstr "p2_singleton_puzzle_hash není definován"
 
 #: src/components/wallet/WalletStatusCard.tsx:27
-#: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/Wallets.tsx:58
 msgid "status:"
 msgstr "stav:"
 
 #: src/components/wallet/WalletStatusCard.tsx:29
-#: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/Wallets.tsx:63
 msgid "synced"
 msgstr "synchronizováno"
 
 #: src/components/wallet/WalletStatusCard.tsx:29
-#: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/Wallets.tsx:62
 msgid "syncing"
 msgstr "synchronizace"
 
@@ -2616,5 +2655,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "Poplatky za transakce {currencyCode}"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+msgid "{synt, plural, one {synt} other {synts}}"
 msgstr ""

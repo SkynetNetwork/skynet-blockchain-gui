@@ -41,6 +41,39 @@ const cols = [
   },
   {
     field(row: Connection) {
+      console.log('0' + row.peer_host);
+      if (row.peer_host === '127.0.0.1') {
+        return 'Localhost';
+      }
+      else if (process.platform != 'win32') {
+        const Geo = window.geoip.lookup(row.peer_host.replace(/\[/,"").replace(/]/g,""))||{country:"",region:"",city:""};
+        // var national = {
+        //   'CN':'🇨🇳',
+        //   'US':'🇺🇸',
+        //   'JP':'🇯🇵',
+        //   'KR':'🇰🇷',
+        //   'GB':"🇬🇧", 
+        // } 
+        // var find_nat = national[Geo.country];
+        var emoji = require('node-emoji');
+
+        var find_nat = emoji.get(Geo.country.toLowerCase());
+        var text = `${find_nat||''} ${Geo.country} ${Geo.city}`;
+
+        return  emoji.emojify(text,(name)=>{
+          return '';
+        });
+      }
+      else {
+        const Geo = window.geoip.lookup(row.peer_host.replace(/\[/,"").replace(/]/g,""))||{country:"",region:"",city:""};
+        var text = `${Geo.country} ${Geo.city}`;
+
+        return text;
+      }
+    }, title: <Trans>Region</Trans>,
+  },
+  {
+    field(row: Connection) {
       return `${row.peer_port}/${row.peer_server_port}`;
     },
     title: <Trans>Port</Trans>,

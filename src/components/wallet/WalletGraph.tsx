@@ -9,7 +9,7 @@ import useWallet from '../../hooks/useWallet';
 import TransactionType from '../../constants/TransactionType';
 import type Transaction from '../../types/Transaction';
 import type Peak from '../../types/Peak';
-import { mojo_to_skynet } from '../../util/skynet';
+import { synt_to_skynet } from '../../util/skynet';
 import usePeak from '../../hooks/usePeak';
 import useCurrencyCode from '../../hooks/useCurrencyCode';
 import blockHeightToTimestamp from '../../util/blockHeightToTimestamp';
@@ -197,8 +197,8 @@ function prepareGraphPoints(
   const points = [
     {
       x: peak.height,
-      y: Math.max(0, mojo_to_skynet(start)),
-      tooltip: mojo_to_skynet(balance),
+      y: Math.max(0, synt_to_skynet(start)),
+      tooltip: synt_to_skynet(balance),
     },
   ];
 
@@ -209,8 +209,8 @@ function prepareGraphPoints(
 
     points.push({
       x: timestamp,
-      y: Math.max(0, mojo_to_skynet(start)),
-      tooltip: mojo_to_skynet(start),
+      y: Math.max(0, synt_to_skynet(start)),
+      tooltip: synt_to_skynet(start),
     });
   });
 

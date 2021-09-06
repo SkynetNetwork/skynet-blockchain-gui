@@ -1,6 +1,6 @@
 enum Unit {
   SKYNET = 'SKYNET',
-  MOJO = 'MOJO',
+  SYNT = 'SYNT',
   COLOURED_COIN = 'COLOUREDCOIN',
 }
 

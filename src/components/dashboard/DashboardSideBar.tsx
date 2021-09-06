@@ -10,6 +10,7 @@ import {
   Home as HomeIcon,
   Plot as PlotIcon,
   Pool as PoolIcon,
+  Logs as LogIcon,
 } from '@skynet/icons';
 import { Flex, SideBarItem } from '@skynet/core';
 import { logOut } from '../../modules/message';
@@ -65,6 +66,11 @@ export default function DashboardSideBar() {
           onSelect={handleLogOut}
           title={<Trans>Keys</Trans>}
           exact
+        />
+        <SideBarItem
+          to="/dashboard/logs"
+          icon={<LogIcon fontSize="large" />}
+          title={<Trans>Logs</Trans>}
         />
       </StyledList>
     </StyledRoot>

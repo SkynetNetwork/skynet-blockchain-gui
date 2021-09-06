@@ -1,12 +1,12 @@
 const units = {
   skynet: 1,
-  mojo: 1 / 1e12,
+  synt: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
   skynet: ['ch', 'skynet', 'Skynet'],
-  mojo: ['mj', 'mojo'],
+  synt: ['mj', 'synt'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
@@ -15,7 +15,7 @@ const display = {
     format: '{amount} CH',
     fractionDigits: 12,
   },
-  mojo: {
+  synt: {
     format: '{amount} MJ',
     fractionDigits: 0,
   },

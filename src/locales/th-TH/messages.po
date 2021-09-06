@@ -2202,7 +2202,7 @@ msgstr "ถึง"
 msgid "Total Balance"
 msgstr "ยอดคงเหลือทั้งหมด"
 
-#: src/components/farm/card/FarmCardTotalSKYNETFarmed.tsx:15
+#: src/components/farm/card/FarmCardTotalSkynetFarmed.tsx:15
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
@@ -2599,7 +2599,7 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} บล็อกรางวัล"
 
-#: src/components/farm/card/FarmCardTotalSKYNETFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalSkynetFarmed.tsx:29
 msgid "{currencyCode} Total Skynet Farmed"
 msgstr "{currencyCode} Skynet ที่ฟาร์มแล้ว"
 
@@ -2608,6 +2608,6 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} ค่าธรรมเนียมการโอนของผู้ใช้"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+msgid "{synt, plural, one {synt} other {synts}}"
 msgstr ""
 

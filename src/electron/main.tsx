@@ -1,4 +1,4 @@
-import { app, dialog, shell, ipcMain, BrowserWindow, Menu } from 'electron';
+import { app, dialog, shell, ipcMain, BrowserWindow, Menu, nativeTheme } from 'electron';
 import path from 'path';
 import React from 'react';
 import url from 'url';
@@ -15,6 +15,7 @@ import skynetConfig from '../util/config';
 import { i18n } from '../config/locales';
 import About from '../components/about/About';
 import packageJson from '../../package.json';
+// import * as pty from 'node-pty';
 
 function renderAbout(): string {
   const sheet = new ServerStyleSheet();
@@ -117,11 +118,15 @@ if (!handleSquirrelEvent()) {
 
     app.on('will-quit', exitPyProc);
 
+    app.allowRendererProcessReuse = false;
     /** ***********************************************************
      * window management
      ************************************************************ */
     let decidedToClose = false;
     let isClosing = false;
+
+    //set dark mode
+    nativeTheme.themeSource = 'dark';
 
     const createWindow = () => {
       decidedToClose = false;
@@ -132,10 +137,15 @@ if (!handleSquirrelEvent()) {
         minHeight: 500,
         backgroundColor: '#ffffff',
         show: false,
+        autoHideMenuBar: true,
         webPreferences: {
+          //disable enabled contexIsolation https://github.com/electron/electron/pull/27949
+          contextIsolation: false,
           preload: `${__dirname}/preload.js`,
           nodeIntegration: true,
           enableRemoteModule: true,
+          nodeIntegrationInWorker: true,
+          webviewTag: true
         },
       });
 
@@ -247,6 +257,31 @@ if (!handleSquirrelEvent()) {
       i18n.activate(locale);
       app.applicationMenu = createMenu();
     });
+
+
+    //_terminal_shell_instance
+    // const os = require("os");
+    // var shell_os = os.platform() === "win32" ? "powershell.exe" : "bash";
+    // //var appDir = path.dirname(require.main.filename);
+    // var ptyProcess = pty.spawn(shell_os, [], {
+    //   name: "xterm-color",
+    //   cols: 80,
+    //   rows: 30,
+    //   cwd: process.env.HOME,
+    //   env: process.env
+    // });
+    console.log("IwasHere");
+
+    // ptyProcess.on('data', function(data) {
+    //     mainWindow.webContents.send("terminal.incomingData", data);
+    //     console.log("Data sent");
+    // });
+    // ipcMain.on("terminal.keystroke", (event, key) => {
+    //     ptyProcess.write(key);
+    //     console.log("Key pressed");
+    // });
+
+
   }
 
   const getMenuTemplate = () => {
@@ -386,29 +421,29 @@ if (!handleSquirrelEvent()) {
               );
             },
           },
-          {
-            type: 'separator',
-          },
-          {
-            label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
-            click: () => {
-              openExternal(
-                'https://github.com/SkynetNetwork/skynet-blockchain/issues',
-              );
-            },
-          },
-          {
-            label: i18n._(/* i18n */ { id: 'Chat on KeyBase' }),
-            click: () => {
-              openExternal('https://keybase.io/team/skynet_network.public');
-            },
-          },
-          {
-            label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
-            click: () => {
-              openExternal('https://twitter.com/skynet_project');
-            },
-          },
+          // {
+          //   type: 'separator',
+          // },
+          // {
+          //   label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
+          //   click: () => {
+          //     openExternal(
+          //       'https://github.com/SkynetNetwork/skynet-blockchain/issues',
+          //     );
+          //   },
+          // },
+          // {
+          //   label: i18n._(/* i18n */ { id: 'Chat on KeyBase' }),
+          //   click: () => {
+          //     openExternal('https://keybase.io/team/skynet_network.public');
+          //   },
+          // },
+          // {
+          //   label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
+          //   click: () => {
+          //     openExternal('https://twitter.com/skynet_project');
+          //   },
+          // },
         ],
       },
     ];

@@ -11,7 +11,7 @@ import PlotNFTSelectBase from './PlotNFTSelectBase';
 import normalizeUrl from '../../../util/normalizeUrl';
 import getPoolInfo from '../../../util/getPoolInfo';
 import InitialTargetState from '../../../types/InitialTargetState';
-import { skynet_to_mojo } from '../../../util/skynet';
+import { skynet_to_synt } from '../../../util/skynet';
 import useStandardWallet from '../../../hooks/useStandardWallet';
 import PlotNFTSelectFaucet from './PlotNFTSelectFaucet';
 
@@ -43,10 +43,10 @@ async function prepareSubmitData(data: FormData): SubmitData {
     initialTargetState.relative_lock_height = relative_lock_height;
   }
 
-  const feeMojos = skynet_to_mojo(fee);
+  const feeSynts = skynet_to_synt(fee);
 
   return {
-    fee: feeMojos,
+    fee: feeSynts,
     initialTargetState,
   };
 }

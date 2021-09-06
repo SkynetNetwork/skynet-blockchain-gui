@@ -3,10 +3,10 @@ import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import type { RootState } from '../../../modules/rootReducer';
 import FarmCard from './FarmCard';
-import { mojo_to_skynet } from '../../../util/skynet';
+import { synt_to_skynet } from '../../../util/skynet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
 
-export default function FarmCardTotalSKYNETFarmed() {
+export default function FarmCardTotalSkynetFarmed() {
   const currencyCode = useCurrencyCode();
 
   const loading = useSelector(
@@ -20,7 +20,7 @@ export default function FarmCardTotalSKYNETFarmed() {
   const totalSKYNETFarmed = useMemo(() => {
     if (farmedAmount !== undefined) {
       const val = BigInt(farmedAmount.toString());
-      return mojo_to_skynet(val);
+      return synt_to_skynet(val);
     }
   }, [farmedAmount]);
 

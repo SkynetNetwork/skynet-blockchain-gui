@@ -27,7 +27,7 @@ import {
   sha256,
 } from '../../util/utils';
 import { getBlockRecord, getBlock } from '../../modules/fullnodeMessages';
-import { mojo_to_skynet } from '../../util/skynet';
+import { synt_to_skynet } from '../../util/skynet';
 import {
   calculatePoolReward,
   calculateBaseFarmerReward,
@@ -171,13 +171,13 @@ export default function Block() {
       ? blockRecord.weight - prevBlockRecord.weight
       : blockRecord?.weight ?? 0;
 
-  const poolReward = mojo_to_skynet(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = mojo_to_skynet(
+  const poolReward = synt_to_skynet(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = synt_to_skynet(
     calculateBaseFarmerReward(blockRecord.height),
   );
 
   const skynetFees = blockRecord.fees
-    ? mojo_to_skynet(BigInt(blockRecord.fees))
+    ? synt_to_skynet(BigInt(blockRecord.fees))
     : '';
 
   const rows = [

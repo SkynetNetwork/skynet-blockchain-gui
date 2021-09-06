@@ -41,7 +41,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default function App() {
-  const { value: darkMode } = useDarkMode();
+  const { value: darkMode } = useDarkMode(true); //default start in dark mode
   const [locale] = useLocale(defaultLocale);
 
   const theme = useMemo(() => {

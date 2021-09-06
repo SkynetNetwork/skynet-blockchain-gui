@@ -18,12 +18,13 @@ function getInstallerConfig () {
     authors: 'Skynet Network',
     version: process.env.SKYNET_INSTALLER_VERSION,
     noMsi: true,
-    iconUrl: 'https://raw.githubusercontent.com/SkynetNetwork/skynet-blockchain/master/electron-react/src/assets/img/skynet.ico',
+    iconUrl: 'https://raw.githubusercontent.com/SkynetNetwork/skynet-blockchain-gui/c219842697bf1c1fdd487d48ddf6d8c61d391b6f/src/assets/img/skynet_tb.ico',
     outputDirectory: path.join(outPath, 'windows-installer'),
     certificateFile: 'win_code_sign_cert.p12',
     certificatePassword: process.env.WIN_CODE_SIGN_PASS,
     exe: 'Skynet.exe',
     setupExe: 'SKYNETSetup-' + process.env.SKYNET_INSTALLER_VERSION + '.exe',
-    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'skynet.ico')
+    setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'skynet.ico'),
+    animation: path.join(rootPath, 'src', 'assets', 'img', 'skynet_loading_boxed.gif'),
   })
 }

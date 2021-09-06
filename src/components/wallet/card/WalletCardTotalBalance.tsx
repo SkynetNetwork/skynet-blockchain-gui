@@ -5,7 +5,7 @@ import WalletGraph from '../WalletGraph';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
-import { mojo_to_skynet_string } from '../../../util/skynet';
+import { synt_to_skynet_string } from '../../../util/skynet';
 
 const StyledGraphContainer = styled.div`
   margin-left: -1rem;
@@ -39,7 +39,7 @@ export default function WalletCardTotalBalance(props: Props) {
       }
       value={
         <>
-          {mojo_to_skynet_string(value)} {currencyCode}
+          {synt_to_skynet_string(value)} {currencyCode}
         </>
       }
       description={

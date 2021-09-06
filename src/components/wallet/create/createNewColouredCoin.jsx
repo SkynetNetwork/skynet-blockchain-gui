@@ -20,7 +20,7 @@ import {
 } from '../../../modules/createWallet';
 import { useStyles } from './WalletCreate';
 import { create_cc_action } from '../../../modules/message';
-import { skynet_to_mojo } from '../../../util/skynet';
+import { skynet_to_synt } from '../../../util/skynet';
 import { openDialog } from '../../../modules/dialog';
 
 export const customStyles = makeStyles((theme) => ({
@@ -83,8 +83,8 @@ export const CreateNewCCWallet = () => {
       return;
     }
     dispatch(createState(true, true));
-    const amount = skynet_to_mojo(amount_input.value);
-    const fee = skynet_to_mojo(fee_input.value);
+    const amount = skynet_to_synt(amount_input.value);
+    const fee = skynet_to_synt(fee_input.value);
     dispatch(create_cc_action(amount, fee));
   }
 

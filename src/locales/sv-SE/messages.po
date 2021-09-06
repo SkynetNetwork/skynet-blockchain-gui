@@ -30,6 +30,10 @@ msgstr "*Vill du utforska SKYNETs block lite mer? Ta en titt på <0>Skynet Explo
 msgid "+ Add New Plot NFT"
 msgstr "+ Lägg till ny plott-NFT"
 
+#: src/components/wallet/Wallets.tsx:123
+msgid "+ Add Wallet"
+msgstr ""
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
 #~ msgstr ""
@@ -42,10 +46,14 @@ msgstr "128 buckets rekommenderas"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "En skördare är en tjänst som körs på en maskin där plottar lagras. En odlare och skördare kommunicerar med en fullständig nod för att läsa blockkedjans tillstånd. Du kan se ditt nätverk av anslutna skördare nedan Läs mer"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:457
+#: src/electron/main.tsx:544
 msgid "About Skynet Blockchain"
 msgstr "Om Skynet Blockchain"
+
+#: src/electron/main.tsx:457
+#~ msgid "About Skynet Blockchain 1.0.0.beta3"
+#~ msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -63,7 +71,7 @@ msgstr "Åtgärd"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:82
+#: src/components/fullNode/FullNodeConnections.tsx:115
 #: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Åtgärder"
@@ -88,8 +96,8 @@ msgstr "Lägg till plott i kön"
 #: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:232
-#: src/components/plotNFT/PlotNFTCard.tsx:284
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:230
+#: src/components/plotNFT/PlotNFTCard.tsx:272
 msgid "Add a Plot"
 msgstr "Lägg till en plott"
 
@@ -143,8 +151,8 @@ msgstr "Belopp för ursprungligt mynt"
 msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "Är det säkert att du vill ta bort plotten? Den kan inte återställas."
 
-#: src/components/plotNFT/PlotNFTCard.tsx:135
-#: src/components/wallet/standard/WalletStandard.tsx:632
+#: src/components/plotNFT/PlotNFTCard.tsx:125
+#: src/components/wallet/standard/WalletStandard.tsx:633
 msgid "Are you sure you want to delete unconfirmed transactions?"
 msgstr "Är du säker på att du vill radera obekräftade transaktioner?"
 
@@ -152,7 +160,7 @@ msgstr "Är du säker på att du vill radera obekräftade transaktioner?"
 msgid "Are you sure you want to disconnect?"
 msgstr "Är det säkert att du vill koppla ifrån?"
 
-#: src/electron/main.tsx:197
+#: src/electron/main.tsx:207
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
 msgstr "Är det säkert att du vill stänga av? Plottning och odling i GUI kommer att stoppas."
 
@@ -270,6 +278,7 @@ msgstr "Kan säkerhetskopieras till minnesfras"
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:86
 #: src/components/farm/FarmManageFarmingRewards.tsx:196
 #: src/components/fullNode/FullNodeAddConnection.tsx:89
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:123
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:87
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:30
 #: src/components/trading/CreateOffer.jsx:139
@@ -298,15 +307,15 @@ msgstr "Verifieringshash"
 msgid "Change"
 msgstr "Byt"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:420
+#: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
 #: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
 msgstr "Byt pool"
 
-#: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Chatta på KeyBase"
+#: src/electron/main.tsx:436
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Chatta på KeyBase"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -316,7 +325,7 @@ msgstr "Välj antal plottar"
 msgid "Choose Plot Size"
 msgstr "Välj plottstorlek"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:396
+#: src/components/plotNFT/PlotNFTCard.tsx:384
 #: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr "Begär in belöningar"
@@ -360,7 +369,7 @@ msgid "Coloured Coin Options"
 msgstr "Alternativ för färgade mynt"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
-#: src/electron/main.tsx:195
+#: src/electron/main.tsx:205
 #: src/hooks/useAbsorbRewards.tsx:46
 msgid "Confirm"
 msgstr "Bekräfta"
@@ -369,8 +378,8 @@ msgstr "Bekräfta"
 msgid "Confirm Disconnect"
 msgstr "Bekräfta frånkoppling"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:131
-#: src/components/wallet/standard/WalletStandard.tsx:628
+#: src/components/plotNFT/PlotNFTCard.tsx:121
+#: src/components/wallet/standard/WalletStandard.tsx:629
 msgid "Confirmation"
 msgstr "Bekräfta"
 
@@ -387,7 +396,7 @@ msgid "Connect"
 msgstr "Anslut"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:68
-#: src/components/fullNode/FullNodeConnections.tsx:112
+#: src/components/fullNode/FullNodeConnections.tsx:145
 msgid "Connect to other peers"
 msgstr "Anslut till andra peer-datorer"
 
@@ -413,15 +422,15 @@ msgstr "Anslutningsstatus"
 msgid "Connection Status:"
 msgstr "Anslutningsstatus:"
 
-#: src/components/fullNode/FullNodeConnections.tsx:75
+#: src/components/fullNode/FullNodeConnections.tsx:108
 msgid "Connection type"
 msgstr "Anslutningstyp"
 
-#: src/components/fullNode/FullNodeConnections.tsx:109
+#: src/components/fullNode/FullNodeConnections.tsx:142
 msgid "Connections"
 msgstr "Anslutningar"
 
-#: src/electron/main.tsx:382
+#: src/electron/main.tsx:417
 msgid "Contribute on GitHub"
 msgstr "Delta på GitHub"
 
@@ -540,13 +549,13 @@ msgstr "Skapar plott-NFT för självpoolning"
 msgid "Currency code is not defined"
 msgstr "Valutakoden är inte definierad"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:141
-#: src/components/plotNFT/PlotNFTCard.tsx:193
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:139
+#: src/components/plotNFT/PlotNFTCard.tsx:181
 msgid "Current Difficulty"
 msgstr "Aktuell svårighetsgrad"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:158
-#: src/components/plotNFT/PlotNFTCard.tsx:210
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:156
+#: src/components/plotNFT/PlotNFTCard.tsx:198
 msgid "Current Points Balance"
 msgstr "Aktuellt poängsaldo"
 
@@ -580,10 +589,10 @@ msgstr "Fördröjning"
 #: src/components/plot/PlotAction.tsx:57
 #: src/components/plot/queue/PlotQueueActions.tsx:43
 #: src/components/plot/queue/PlotQueueActions.tsx:97
-#: src/components/plotNFT/PlotNFTCard.tsx:132
+#: src/components/plotNFT/PlotNFTCard.tsx:122
 #: src/components/selectKey/SelectKey.tsx:67
 #: src/components/selectKey/SelectKey.tsx:109
-#: src/components/wallet/standard/WalletStandard.tsx:629
+#: src/components/wallet/standard/WalletStandard.tsx:630
 msgid "Delete"
 msgstr "Ta bort"
 
@@ -592,8 +601,8 @@ msgstr "Ta bort"
 msgid "Delete Plot"
 msgstr "Ta bort plott"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:327
-#: src/components/wallet/standard/WalletStandard.tsx:663
+#: src/components/plotNFT/PlotNFTCard.tsx:315
+#: src/components/wallet/standard/WalletStandard.tsx:675
 msgid "Delete Unconfirmed Transactions"
 msgstr "Ta bort obekräftade transaktioner"
 
@@ -618,11 +627,11 @@ msgstr "Om du tar bort alla nycklar kommer de att permanent tas bort från dator
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Om du tar bort nyckeln kommer den att permanent tas bort från datorn. Se till att du har säkerhetskopierat den. Är det säkert att du vill fortsätta?"
 
-#: src/electron/main.tsx:304
+#: src/electron/main.tsx:339
 msgid "Developer"
 msgstr "Utvecklare"
 
-#: src/electron/main.tsx:307
+#: src/electron/main.tsx:342
 msgid "Developer Tools"
 msgstr "Utvecklarverktyg"
 
@@ -673,9 +682,15 @@ msgstr "Dra och släpp erbjudandefil"
 msgid "Drag and drop your backup file"
 msgstr "Drag och släpp din säkerhetskopierade fil"
 
-#: src/electron/main.tsx:263
+#: src/electron/main.tsx:298
 msgid "Edit"
 msgstr "Redigera"
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:259
+#: src/components/plotNFT/PlotNFTCard.tsx:301
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:76
+msgid "Edit Payout Instructions"
+msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:147
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Skynet wallet."
@@ -725,7 +740,7 @@ msgstr "Uteslut slutlig mapp"
 msgid "Failed to open (invalid plots)"
 msgstr "Det gick inte att öppna (ogiltiga plottar)"
 
-#: src/components/dashboard/DashboardSideBar.tsx:55
+#: src/components/dashboard/DashboardSideBar.tsx:56
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:532
 msgid "Farm"
@@ -822,8 +837,8 @@ msgstr "Avgiftsbelopp"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:290
+#: src/electron/main.tsx:491
 msgid "File"
 msgstr "Fil"
 
@@ -842,15 +857,15 @@ msgstr "Sökväg till slutlig mapp"
 msgid "Finished"
 msgstr "Färdigt"
 
-#: src/electron/main.tsx:407
-msgid "Follow on Twitter"
-msgstr "Följ på Twitter"
+#: src/electron/main.tsx:442
+#~ msgid "Follow on Twitter"
+#~ msgstr "Följ på Twitter"
 
-#: src/electron/main.tsx:366
+#: src/electron/main.tsx:401
 msgid "Frequently Asked Questions"
 msgstr "Vanliga frågor"
 
-#: src/components/dashboard/DashboardSideBar.tsx:39
+#: src/components/dashboard/DashboardSideBar.tsx:40
 #: src/components/fullNode/FullNode.jsx:323
 msgid "Full Node"
 msgstr "Fullständig nod"
@@ -863,7 +878,7 @@ msgstr "Översikt över fullständig nod"
 #~ msgid "Full Node Status"
 #~ msgstr "Full Node Status"
 
-#: src/electron/main.tsx:332
+#: src/electron/main.tsx:367
 msgid "Full Screen"
 msgstr "Helskärm"
 
@@ -901,11 +916,11 @@ msgstr "Huvudhash"
 
 #: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:79
+#: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
 msgstr "Höjd"
 
-#: src/electron/main.tsx:354
+#: src/electron/main.tsx:389
 msgid "Help"
 msgstr "Hjälp"
 
@@ -995,7 +1010,7 @@ msgstr "Ogiltigt tillstånd"
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 msgstr "Det är en engångsinloggningslänk som kan användas för att logga in på en pools hemsida. Den innehåller en signatur med nyckel från plottens NFT. Inte alla pooler stöder denna funktion."
 
-#: src/components/plotNFT/PlotNFTCard.tsx:418
+#: src/components/plotNFT/PlotNFTCard.tsx:406
 #: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "Gå med i en pool"
@@ -1022,7 +1037,7 @@ msgstr "Gå med i en pool och få mer konsekventa XNT-odlingsbelöningar. Skapa 
 msgid "K-Size"
 msgstr "K-storlek"
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:67
 msgid "Keys"
 msgstr "Nycklar"
 
@@ -1043,13 +1058,13 @@ msgstr "Senaste höjd som odlats på"
 msgid "Latest Block Challenges"
 msgstr "Senaste blockverifieringar"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:297
-#: src/components/plotNFT/PlotNFTCard.tsx:362
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:295
+#: src/components/plotNFT/PlotNFTCard.tsx:350
 msgid "Launcher Id"
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:100
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:99
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:114
 msgid "Learn More"
 msgstr "Läs mer"
 
@@ -1065,7 +1080,7 @@ msgstr "Listvy"
 msgid "Loading Plot NFTs"
 msgstr "Läser in plott-NFT:er"
 
-#: src/components/wallet/Wallets.tsx:172
+#: src/components/wallet/Wallets.tsx:112
 msgid "Loading list of wallets"
 msgstr "Läser in en lista över plånböcker"
 
@@ -1080,6 +1095,14 @@ msgstr "Läser in …"
 #: src/components/app/AppRouter.tsx:41
 msgid "Logging in"
 msgstr "Loggar in"
+
+#: src/components/dashboard/DashboardSideBar.tsx:73
+msgid "Logs"
+msgstr ""
+
+#: src/components/logs/Logs.tsx:42
+#~ msgid "Logs audit"
+#~ msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:124
 #~ msgid "MainWalletList.colouredCoin"
@@ -1129,7 +1152,7 @@ msgstr "Hantera odlingsbelöningar"
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Hantera dina måladresser för odlarbelöningar"
 
-#: src/components/fullNode/FullNodeConnections.tsx:68
+#: src/components/fullNode/FullNodeConnections.tsx:101
 msgid "MiB Up/Down"
 msgstr "MiB upp/ner"
 
@@ -1181,7 +1204,7 @@ msgid "Nickname"
 msgstr "Smeknamn"
 
 #: src/components/trading/TradingOverview.jsx:209
-#: src/electron/main.tsx:192
+#: src/electron/main.tsx:202
 msgid "No"
 msgstr "Nej"
 
@@ -1223,6 +1246,7 @@ msgstr "Ingen av dina plottar har passerat plottfiltret ännu."
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
 #: src/components/plot/PlotStatus.tsx:19
+#: src/components/plotNFT/PlotNFTCard.tsx:365
 msgid "Not Available"
 msgstr "Inte tillgänglig"
 
@@ -1249,11 +1273,15 @@ msgid "Not found Plots"
 msgstr "Ej hittade plottar"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:184
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-msgstr "Observera att detta inte ändrar dina poolutbetalningsadresser. Detta påverkar endast plottar med det gamla formatet och belöningen 0,25XCH för poolplotter."
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+#~ msgstr "Observera att detta inte ändrar dina poolutbetalningsadresser. Detta påverkar endast plottar med det gamla formatet och belöningen 0,25XCH för poolplotter."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:120
-#: src/components/plotNFT/PlotNFTCard.tsx:172
+#: src/components/farm/FarmManageFarmingRewards.tsx:184
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XNT reward for pooling plots."
+msgstr ""
+
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:118
+#: src/components/plotNFT/PlotNFTCard.tsx:160
 msgid "Number of Plots"
 msgstr "Antal plottar"
 
@@ -1267,7 +1295,6 @@ msgstr "Antal trådar"
 
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:87
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:111
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:112
 msgid "OK"
 msgstr "OK"
 
@@ -1287,7 +1314,7 @@ msgstr "Vanligtvis är det en minut mellan varje transaktionsblock. Om det inte 
 msgid "Outgoing"
 msgstr "Utgående"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:373
+#: src/components/plotNFT/PlotNFTCard.tsx:361
 msgid "Payout Address"
 msgstr ""
 
@@ -1463,7 +1490,7 @@ msgstr "Plotten är en dubblett av {0}"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "PlotNFT håller på att byta status till (target state). Detta kan ta ett tag. Stäng inte programmet förrän detta är slutfört."
 
-#: src/components/dashboard/DashboardSideBar.tsx:50
+#: src/components/dashboard/DashboardSideBar.tsx:51
 msgid "Plots"
 msgstr "Plottar"
 
@@ -1491,22 +1518,22 @@ msgstr "Plottning med bitfield aktiverat ger ungefär 30 % färre skrivningar o
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
 #~ msgstr ""
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:176
-#: src/components/plotNFT/PlotNFTCard.tsx:228
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:174
+#: src/components/plotNFT/PlotNFTCard.tsx:216
 msgid "Points Found Since Start"
 msgstr "Poäng som hittats sedan start"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:187
-#: src/components/plotNFT/PlotNFTCard.tsx:239
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:185
+#: src/components/plotNFT/PlotNFTCard.tsx:227
 msgid "Points Found in Last 24 Hours"
 msgstr "Poäng som hittats de senaste 24 timmarna"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:196
-#: src/components/plotNFT/PlotNFTCard.tsx:248
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:194
+#: src/components/plotNFT/PlotNFTCard.tsx:236
 msgid "Points Successful in Last 24 Hours"
 msgstr "Poäng lyckade under de senaste 24 timmarna"
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
+#: src/components/dashboard/DashboardSideBar.tsx:61
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr "Pool"
@@ -1523,8 +1550,7 @@ msgstr "Pool-nyckel"
 msgid "Pool Login Link"
 msgstr "Inloggningslänk för pool"
 
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:63
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:75
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
 msgid "Pool Payout Instructions"
 msgstr "Instruktioner för poolutbetalning"
 
@@ -1569,8 +1595,8 @@ msgstr "Poolen tillhandahåller inte target_puzzle_hash."
 msgid "Pool public key:"
 msgstr "Publik nyckel för pool:"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:274
-#: src/components/plotNFT/PlotNFTCard.tsx:339
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:272
+#: src/components/plotNFT/PlotNFTCard.tsx:327
 #: src/components/plotNFT/PlotNFTUnconfirmedCard.tsx:57
 msgid "Pool:"
 msgstr "Pool:"
@@ -1583,7 +1609,7 @@ msgstr "Poolning"
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:46
+#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Port"
 msgstr "Port"
 
@@ -1703,11 +1729,15 @@ msgstr "Återställ DID-plånbok"
 msgid "Refresh Plots"
 msgstr "Uppdatera plottar"
 
+#: src/components/fullNode/FullNodeConnections.tsx:73
+msgid "Region"
+msgstr ""
+
 #: src/components/pool/PoolInfo.tsx:32
 msgid "Relative Lock Height"
 msgstr "Relativ låshöjd"
 
-#: src/electron/main.tsx:374
+#: src/electron/main.tsx:409
 msgid "Release Notes"
 msgstr "Viktig information"
 
@@ -1719,9 +1749,9 @@ msgstr "Tar bort"
 msgid "Rename"
 msgstr "Byt namn"
 
-#: src/electron/main.tsx:393
-msgid "Report an Issue..."
-msgstr "Rapportera ett problem ..."
+#: src/electron/main.tsx:428
+#~ msgid "Report an Issue..."
+#~ msgstr "Rapportera ett problem ..."
 
 #: src/components/backup/BackupRestore.tsx:160
 msgid "Restore Metadata for Coloured Coins and other Smart Wallets from Backup"
@@ -1741,6 +1771,7 @@ msgid "Safe To Skip"
 msgstr "Kan hoppas över"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:199
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:126
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "Spara"
@@ -1873,15 +1904,15 @@ msgstr "Logga in"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Hoppar över steget att lägga till en slutlig mapp till skördaren för odling"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:454
 msgid "Skynet"
 msgstr "Skynet"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:393
 msgid "Skynet Blockchain Wiki"
 msgstr "Skynet Blockchains wiki"
 
-#: src/components/wallet/standard/WalletStandard.tsx:647
+#: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Skynet Wallet"
 msgstr "Skynet-plånbok"
 
@@ -1893,7 +1924,7 @@ msgstr "Jämna ut dina XNT-odlarbelöningar genom att gå med i en pool."
 msgid "Something went wrong"
 msgstr "Något gick fel"
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:505
 msgid "Speech"
 msgstr "Tal"
 
@@ -1932,13 +1963,13 @@ msgstr "Tillstånd"
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:59
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:67
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:115
-#: src/components/plotNFT/PlotNFTCard.tsx:157
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:113
+#: src/components/plotNFT/PlotNFTCard.tsx:145
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:53
 msgid "Status"
 msgstr "Status"
 
@@ -2030,6 +2061,14 @@ msgstr "Mål-pusselhash"
 msgid "Temporary folder location"
 msgstr "Tillfällig mapp"
 
+#: src/components/logs/Logs.tsx:50
+#~ msgid "Terminal"
+#~ msgstr ""
+
+#: src/components/logs/Logs.tsx:161
+msgid "Terminal & logs"
+msgstr ""
+
 #: src/components/app/AppTimeBomb.tsx:30
 msgid "The application will stop working at block height 193536."
 msgstr "Applikationen kommer att sluta fungera på blockhöjd 193536."
@@ -2091,7 +2130,7 @@ msgstr "Sammanlagt antal VDF- (verifiable delay function) eller bevis-på-tid-it
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Summan av transaktionsavgifterna i detta block. Utbetalda till odlaren."
 
-#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:87
+#: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
 msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XNT address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr "Det här är instruktionerna för hur du vill få betalt. Som standard kommer detta att vara en XNT-adress, men det kan ställas in till vilken sträng som helst med en storlek på mindre än 1024 tecken, så att det kan representera en annan blockkedja eller betalningssystem identifierare."
 
@@ -2103,8 +2142,8 @@ msgstr "Dessa plottar är ogiltiga. Det kan vara lämpligt att ta bort dem."
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
 msgstr "Detta låter dig lägga till en mapp som innehåller plottar. Om du inte har skapat några plottar går du till sidan plottning."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:132
-#: src/components/plotNFT/PlotNFTCard.tsx:184
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:130
+#: src/components/plotNFT/PlotNFTCard.tsx:172
 msgid "This difficulty is an artifically lower difficulty than on the real network, and is used when farming, in order to find more proofs and send them to the pool. The more plots you have, the higher difficulty you will have. However, the difficulty does not affect rewards."
 msgstr "Denna svårighetsgrad är en artificiellt lägre svårighetsgrad än på det riktiga nätverket, och används vid odling för att hitta fler bevis och skicka dem till poolen. Ju fler plottar du har, desto större svårighetsgrad kommer du att ha. Svårighetsgraden påverkar dock inte belöningar."
 
@@ -2142,13 +2181,13 @@ msgstr "Detta är den sammanlagda mängden skynet i blockkedjan vid det aktuella
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "Detta är totalt saldo + väntande saldo: det är vad ditt saldo kommer att vara när alla väntande transaktioner har bekräftats."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:151
-#: src/components/plotNFT/PlotNFTCard.tsx:203
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:149
+#: src/components/plotNFT/PlotNFTCard.tsx:191
 msgid "This is the total number of points this plotNFT has with this pool, since the last payout. The pool will reset the points after making a payout."
 msgstr "Detta är det sammanlagda antalet poäng denna plot-NFT har med denna pool, sedan den senaste utbetalningen. Poolen kommer att återställa poängen efter att ha gjort en utbetalning."
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:168
-#: src/components/plotNFT/PlotNFTCard.tsx:220
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:166
+#: src/components/plotNFT/PlotNFTCard.tsx:208
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
@@ -2156,7 +2195,7 @@ msgstr ""
 msgid "This node is fully caught up and validating the network"
 msgstr "Denna nod är helt uppdaterad och validerar nätverket"
 
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:310
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:308
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
 msgstr "Denna plott-NFT är tilldelad till en annan nyckel. Du kan fortfarande skapa plottar för denna plott-NFT, men du kan inte göra några ändringar."
 
@@ -2226,7 +2265,7 @@ msgstr "Sammanlagd plottstorlek:"
 msgid "Total Size of Plots"
 msgstr "Sammanlagd storlek hos alla plottar"
 
-#: src/components/farm/card/FarmCardTotalSKYNETFarmed.tsx:15
+#: src/components/farm/card/FarmCardTotalSkynetFarmed.tsx:15
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
@@ -2282,7 +2321,7 @@ msgstr "Typ"
 msgid "Unable to create plot NFT"
 msgstr "Det gick inte att skapa plott-NFT"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:162
+#: src/components/plotNFT/PlotNFTCard.tsx:150
 #: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr "Belöningar som inte begärts in"
@@ -2324,7 +2363,7 @@ msgstr "Värdet verkar högt"
 msgid "Verify Pool Details"
 msgstr "Verifiera poolinformation"
 
-#: src/electron/main.tsx:295
+#: src/electron/main.tsx:330
 msgid "View"
 msgstr "Visa"
 
@@ -2342,7 +2381,7 @@ msgstr "Visa erbjudande"
 #~ msgid "View Payout Instructions"
 #~ msgstr "View Payout Instructions"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:298
+#: src/components/plotNFT/PlotNFTCard.tsx:286
 msgid "View Pool Login Link"
 msgstr "Inloggningslänk för pool"
 
@@ -2374,7 +2413,7 @@ msgid "Waiting for the transaction to be confirmed"
 msgstr "Väntar på att transaktionen ska bekräftas"
 
 #: src/components/pool/PoolOverview.tsx:185
-#: src/components/wallet/standard/WalletStandard.tsx:674
+#: src/components/wallet/standard/WalletStandard.tsx:657
 msgid "Wallet Status:"
 msgstr "Plånboksstatus:"
 
@@ -2406,8 +2445,8 @@ msgstr "Plånboksstatus:"
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:45
-#: src/components/wallet/Wallets.tsx:173
+#: src/components/dashboard/DashboardSideBar.tsx:46
+#: src/components/wallet/Wallets.tsx:113
 msgid "Wallets"
 msgstr "Plånböcker"
 
@@ -2459,7 +2498,7 @@ msgstr "Välkommen! Följande ord används för din plånboks säkerhetskopia. U
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "När du fått konfigurationsinfopaketet av din administratör anger du det nedan för att slutföra konfigurationen av din spenderbegränsade plånbok:"
 
-#: src/electron/main.tsx:340
+#: src/electron/main.tsx:375
 msgid "Window"
 msgstr "Fönster"
 
@@ -2469,7 +2508,7 @@ msgstr "Utan avgifter"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:35
 #: src/components/trading/TradingOverview.jsx:209
-#: src/electron/main.tsx:193
+#: src/electron/main.tsx:203
 msgid "Yes"
 msgstr "Ja"
 
@@ -2482,7 +2521,7 @@ msgstr "Du är i ett väntande tillstånd. Vänta på bekräftelse"
 msgid "You are not self pooling"
 msgstr "Du använder inte självpoolning"
 
-#: src/components/plotNFT/PlotNFTCard.tsx:436
+#: src/components/plotNFT/PlotNFTCard.tsx:424
 msgid "You can still create plots for this plot NFT, but you can not make changes until sync is complete."
 msgstr "Du kan fortfarande skapa plottar för denna plot-NFT, men du kan inte göra ändringar förrän synkroniseringen är klar."
 
@@ -2561,16 +2600,16 @@ msgid "[Error 22] File not found. Most likely one of the plot folders in your co
 msgstr "[Felkod 22] Filen går inte att hitta. Troligtvis en av katalog för plottar i din config.yaml som är felaktig."
 
 #: src/components/wallet/WalletStatusCard.tsx:41
-#: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/Wallets.tsx:78
 msgid "connections:"
 msgstr "anslutningar:"
 
 #: src/components/wallet/WalletStatusCard.tsx:33
-#: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/Wallets.tsx:70
 msgid "height:"
 msgstr "höjd:"
 
-#: src/components/wallet/Wallets.tsx:129
+#: src/components/wallet/Wallets.tsx:64
 msgid "not synced"
 msgstr "ej synkad"
 
@@ -2579,17 +2618,17 @@ msgid "p2_singleton_puzzle_hash is not defined"
 msgstr "p2_singleton_puzzle_hash är inte definierat"
 
 #: src/components/wallet/WalletStatusCard.tsx:27
-#: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/Wallets.tsx:58
 msgid "status:"
 msgstr "status:"
 
 #: src/components/wallet/WalletStatusCard.tsx:29
-#: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/Wallets.tsx:63
 msgid "synced"
 msgstr "synkad"
 
 #: src/components/wallet/WalletStatusCard.tsx:29
-#: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/Wallets.tsx:62
 msgid "syncing"
 msgstr "synkar"
 
@@ -2618,5 +2657,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Transaktionsavgifter för användare"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
-msgstr "{mojo, plural, one {mojo} other {mojo}}"
+msgid "{synt, plural, one {synt} other {synts}}"
+msgstr "{synt, plural, one {synt} other {synt}}"
