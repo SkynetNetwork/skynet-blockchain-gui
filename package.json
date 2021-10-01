@@ -1,6 +1,6 @@
 {
     "name": "skynet-blockchain",
-    "author": "Skynet Network <hello@skynet-network.org> (https://skynet-network.org/)",
+    "author": "Skynet Network <support@skynet-network.org> (https://skynet-network.org/)",
     "description": "GUI for Skynet Blockchain",
     "productName": "Skynet Blockchain",
     "private": true,
