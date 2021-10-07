@@ -105,7 +105,7 @@ export default class Dashboard extends React.Component {
 
   updateClick = (event) => {
     if ( this.state.severity === 'warning') {
-      shell.openExternal("https://github.com/SkynetNetwork/skynet-blockchain");
+      shell.openExternal("https://github.com/SkynetNetwork/skynet-blockchain/releases");
     }
   }
 
