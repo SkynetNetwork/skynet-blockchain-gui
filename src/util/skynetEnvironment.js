@@ -137,8 +137,13 @@ const startSKYNETDaemon = () => {
   //pyProc.unref();
 };
 
+const startSKYNETTerminal = () => {
+
+}
+
 module.exports = {
   startSKYNETDaemon,
   getSKYNETVersion,
   guessPackaged,
+  //startSKYNETTerminal,
 };

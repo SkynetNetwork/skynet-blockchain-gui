@@ -191,7 +191,7 @@ msgstr "Súbor so zálohou inteligentných peňaženiek."
 msgid "Balance"
 msgstr "Zostatok"
 
-#: src/components/block/Block.jsx:317
+#: src/components/block/Block.jsx:323
 msgid "Base Farmer Reward Amount"
 msgstr "Základná výška odmeny farmára"
 
@@ -208,22 +208,22 @@ msgstr "Najlepší odhad za posledných 24 hodín"
 #~ msgid "Best estimate over last 5 hours"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:129
-#: src/components/block/Block.jsx:153
-#: src/components/block/Block.jsx:157
-#: src/components/block/Block.jsx:332
+#: src/components/block/Block.jsx:130
+#: src/components/block/Block.jsx:154
+#: src/components/block/Block.jsx:158
+#: src/components/block/Block.jsx:342
 msgid "Block"
 msgstr "Blok"
 
-#: src/components/block/Block.jsx:137
+#: src/components/block/Block.jsx:138
 msgid "Block Test"
 msgstr "Test bloku"
 
-#: src/components/block/Block.jsx:235
+#: src/components/block/Block.jsx:241
 msgid "Block VDF Iterations"
 msgstr "Blok VDF iterácii"
 
-#: src/components/block/Block.jsx:336
+#: src/components/block/Block.jsx:346
 msgid "Block at height {0} in the Skynet blockchain"
 msgstr "Blok s výškou {0} v Skynet blockchaine"
 
@@ -231,11 +231,11 @@ msgstr "Blok s výškou {0} v Skynet blockchaine"
 #~ msgid "Block hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:141
+#: src/components/block/Block.jsx:142
 msgid "Block with hash {headerHash}"
 msgstr "Blok s hashom {headerHash}"
 
-#: src/components/block/Block.jsx:162
+#: src/components/block/Block.jsx:163
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Block s hashom {headerHash} neexistuje."
 
@@ -635,7 +635,7 @@ msgstr "Vývojár"
 msgid "Developer Tools"
 msgstr "Nástroje pre vývojárov"
 
-#: src/components/block/Block.jsx:221
+#: src/components/block/Block.jsx:227
 #: src/components/fullNode/card/FullNodeCardDifficulty.tsx:20
 msgid "Difficulty"
 msgstr "Zložitosť"
@@ -750,7 +750,7 @@ msgstr "Farma"
 msgid "Farmer Public Key"
 msgstr "Verejný kľúč farmára"
 
-#: src/components/block/Block.jsx:267
+#: src/components/block/Block.jsx:273
 msgid "Farmer Puzzle Hash"
 msgstr "Hash hádaniek pre farmára"
 
@@ -829,7 +829,7 @@ msgstr "Poplatok"
 msgid "Fee ({currencyCode})"
 msgstr "Poplatok ({currencyCode})"
 
-#: src/components/block/Block.jsx:321
+#: src/components/block/Block.jsx:331
 msgid "Fees Amount"
 msgstr "Výška poplatkov"
 
@@ -910,11 +910,11 @@ msgstr "Zoznam polí"
 msgid "Header Hash"
 msgstr "Hash hlavičky"
 
-#: src/components/block/Block.jsx:185
+#: src/components/block/Block.jsx:191
 msgid "Header hash"
 msgstr "Hash hlavičky"
 
-#: src/components/block/Block.jsx:201
+#: src/components/block/Block.jsx:207
 #: src/components/fullNode/FullNode.jsx:81
 #: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
@@ -1193,7 +1193,7 @@ msgstr "Nová adresa"
 msgid "New Wallet"
 msgstr "Nová peňaženka"
 
-#: src/components/block/Block.jsx:350
+#: src/components/block/Block.jsx:360
 #: src/components/wallet/WalletAdd.tsx:95
 #: src/components/wallet/WalletImport.tsx:163
 msgid "Next"
@@ -1441,7 +1441,7 @@ msgstr "Pole"
 msgid "Plot Count"
 msgstr "Počet plotov"
 
-#: src/components/block/Block.jsx:299
+#: src/components/block/Block.jsx:305
 msgid "Plot Id"
 msgstr "Id poľa"
 
@@ -1462,7 +1462,7 @@ msgstr "NFT poľa s p2_singleton_puzzle_hash {plotNFTId} neexistuje"
 #~ msgid "Plot Name"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:259
+#: src/components/block/Block.jsx:265
 msgid "Plot Public Key"
 msgstr "Verejný kľúč poľa"
 
@@ -1554,12 +1554,12 @@ msgstr "Odkaz na prihlásenie do združenia"
 msgid "Pool Payout Instructions"
 msgstr "Pokyny združenia na výplatu"
 
-#: src/components/block/Block.jsx:263
+#: src/components/block/Block.jsx:269
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "Verejný kľúč združenia"
 
-#: src/components/block/Block.jsx:283
+#: src/components/block/Block.jsx:289
 msgid "Pool Puzzle Hash"
 msgstr "Hádankový klúč združenia"
 
@@ -1579,7 +1579,7 @@ msgstr "Adresa odmeny združenia nemá správny formát."
 msgid "Pool Reward Address must not be empty."
 msgstr "Adresa odmeny združenia nesmie byť prázdna."
 
-#: src/components/block/Block.jsx:313
+#: src/components/block/Block.jsx:319
 msgid "Pool Reward Amount"
 msgstr "Čiastka odmeny združenia"
 
@@ -1622,7 +1622,7 @@ msgstr "Príprava NFT poľa"
 msgid "Preparing standard wallet"
 msgstr "Príprava štandardnej peňaženky"
 
-#: src/components/block/Block.jsx:347
+#: src/components/block/Block.jsx:357
 msgid "Previous"
 msgstr "Predchádzajúci"
 
@@ -1630,7 +1630,7 @@ msgstr "Predchádzajúci"
 #~ msgid "Previous Block Hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:215
+#: src/components/block/Block.jsx:221
 msgid "Previous Header Hash"
 msgstr "Hash predchádzajúceho záhlavia"
 
@@ -1650,7 +1650,7 @@ msgstr "Privátny kľúč {0}"
 msgid "Private key:"
 msgstr "Privátny kľúč:"
 
-#: src/components/block/Block.jsx:251
+#: src/components/block/Block.jsx:257
 msgid "Proof of Space Size"
 msgstr "Dôkaz o veľkosti priestoru"
 
@@ -2065,7 +2065,7 @@ msgstr "Dočasný adresár"
 #~ msgid "Terminal"
 #~ msgstr ""
 
-#: src/components/logs/Logs.tsx:161
+#: src/components/logs/Logs.tsx:149
 msgid "Terminal & logs"
 msgstr ""
 
@@ -2114,19 +2114,19 @@ msgstr "URL adresa združenia musí používať protokol https. {normalizedUrl}"
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr "Operácia prepnutia združenia bola zrušená. Skúste to znova zmenou združenia alebo osobným združovaním"
 
-#: src/components/block/Block.jsx:302
+#: src/components/block/Block.jsx:308
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "Seed použitý na vytvorenie poľa. Závisí od PK združenia a PK poľa."
 
-#: src/components/block/Block.jsx:228
+#: src/components/block/Block.jsx:234
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this sub block."
 msgstr "Celkový počet VDF (overiteľná funkcia oneskorenia) alebo dôkaz o časových iteráciách v celom reťazci až po tento čiastkový blok."
 
-#: src/components/block/Block.jsx:244
+#: src/components/block/Block.jsx:250
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
 msgstr "Celkový počet VDF (overiteľná funkcia oneskorenia) alebo dôkaz o časových iteráciách v tomto bloku."
 
-#: src/components/block/Block.jsx:324
+#: src/components/block/Block.jsx:334
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Celkové poplatky v tomto bloku idú ťažiarovi."
 
@@ -2169,7 +2169,7 @@ msgstr "Toto je súčet prichádzajúcich a odchádzajúcich nespracovaných tra
 msgid "This is the time of the latest peak sub block."
 msgstr "Toto je čas posledného najvyššieho podbloku."
 
-#: src/components/block/Block.jsx:194
+#: src/components/block/Block.jsx:200
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "Toto je čas, kedy ťažiar vytvoril blok, a to ešte predtým, ako bol finalizovaný s dôkazom o čase"
 
@@ -2235,7 +2235,11 @@ msgstr "Čas vytvorenia"
 #~ msgid "Time this trade was created at this time"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:189
+#: src/components/block/Block.jsx:327
+msgid "Timelord Reward Amount"
+msgstr ""
+
+#: src/components/block/Block.jsx:195
 msgid "Timestamp"
 msgstr "Časová značka"
 
@@ -2269,7 +2273,7 @@ msgstr "Celková veľkosť polí"
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:225
+#: src/components/block/Block.jsx:231
 msgid "Total VDF Iterations"
 msgstr "Celkový počet VDF iterácií"
 
@@ -2309,7 +2313,7 @@ msgstr "Obchodovanie"
 msgid "Trading History"
 msgstr "História obchodovania"
 
-#: src/components/block/Block.jsx:309
+#: src/components/block/Block.jsx:315
 msgid "Transactions Filter Hash"
 msgstr "Hash filtra transakcií"
 
@@ -2478,11 +2482,11 @@ msgstr "Varovanie: Tento kľúč sa používa pre vašu adresu farmárskych odmi
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
 msgstr "Varovanie: Tento kľúč sa používa pre vašu adresu odmien združenia. Odstránením tohto kľúča môžete stratiť prístup k budúcim odmenám združenia"
 
-#: src/components/block/Block.jsx:205
+#: src/components/block/Block.jsx:211
 msgid "Weight"
 msgstr "Váha"
 
-#: src/components/block/Block.jsx:208
+#: src/components/block/Block.jsx:214
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr "Váha je celková pridaná obtiažnosť všetkých blokov až po tento blok vrátane tohto bloku"
 

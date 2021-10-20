@@ -191,7 +191,7 @@ msgstr "バックアップファイルはスマートウォレットの復元に
 msgid "Balance"
 msgstr "残高"
 
-#: src/components/block/Block.jsx:317
+#: src/components/block/Block.jsx:323
 msgid "Base Farmer Reward Amount"
 msgstr "農家への基本報酬額"
 
@@ -208,22 +208,22 @@ msgstr "過去24時間を基に推定"
 #~ msgid "Best estimate over last 5 hours"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:129
-#: src/components/block/Block.jsx:153
-#: src/components/block/Block.jsx:157
-#: src/components/block/Block.jsx:332
+#: src/components/block/Block.jsx:130
+#: src/components/block/Block.jsx:154
+#: src/components/block/Block.jsx:158
+#: src/components/block/Block.jsx:342
 msgid "Block"
 msgstr "ブロック"
 
-#: src/components/block/Block.jsx:137
+#: src/components/block/Block.jsx:138
 msgid "Block Test"
 msgstr "ブロックテスト"
 
-#: src/components/block/Block.jsx:235
+#: src/components/block/Block.jsx:241
 msgid "Block VDF Iterations"
 msgstr "ブロック VDF 評価回数"
 
-#: src/components/block/Block.jsx:336
+#: src/components/block/Block.jsx:346
 msgid "Block at height {0} in the Skynet blockchain"
 msgstr "チアブロックチェーン内の高さ {0} のブロック"
 
@@ -231,11 +231,11 @@ msgstr "チアブロックチェーン内の高さ {0} のブロック"
 #~ msgid "Block hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:141
+#: src/components/block/Block.jsx:142
 msgid "Block with hash {headerHash}"
 msgstr "ハッシュ値 {headerHash} のブロック"
 
-#: src/components/block/Block.jsx:162
+#: src/components/block/Block.jsx:163
 msgid "Block with hash {headerHash} does not exist."
 msgstr "ハッシュ値 {headerHash} のブロックは存在しません。"
 
@@ -635,7 +635,7 @@ msgstr "開発者"
 msgid "Developer Tools"
 msgstr "開発者向けツール"
 
-#: src/components/block/Block.jsx:221
+#: src/components/block/Block.jsx:227
 #: src/components/fullNode/card/FullNodeCardDifficulty.tsx:20
 msgid "Difficulty"
 msgstr "難易度"
@@ -750,7 +750,7 @@ msgstr "農家"
 msgid "Farmer Public Key"
 msgstr "農家公開鍵"
 
-#: src/components/block/Block.jsx:267
+#: src/components/block/Block.jsx:273
 msgid "Farmer Puzzle Hash"
 msgstr "農家パズルハッシュ値"
 
@@ -829,7 +829,7 @@ msgstr "手数料"
 msgid "Fee ({currencyCode})"
 msgstr "手数料 ({currencyCode})"
 
-#: src/components/block/Block.jsx:321
+#: src/components/block/Block.jsx:331
 msgid "Fees Amount"
 msgstr "全手数料"
 
@@ -910,11 +910,11 @@ msgstr "収穫機上の耕地"
 msgid "Header Hash"
 msgstr "ヘッダーのハッシュ値"
 
-#: src/components/block/Block.jsx:185
+#: src/components/block/Block.jsx:191
 msgid "Header hash"
 msgstr "ヘッダーのハッシュ値"
 
-#: src/components/block/Block.jsx:201
+#: src/components/block/Block.jsx:207
 #: src/components/fullNode/FullNode.jsx:81
 #: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
@@ -1193,7 +1193,7 @@ msgstr "新規アドレス"
 msgid "New Wallet"
 msgstr "新規ウォレット作成"
 
-#: src/components/block/Block.jsx:350
+#: src/components/block/Block.jsx:360
 #: src/components/wallet/WalletAdd.tsx:95
 #: src/components/wallet/WalletImport.tsx:163
 msgid "Next"
@@ -1441,7 +1441,7 @@ msgstr "耕地"
 msgid "Plot Count"
 msgstr "耕地数"
 
-#: src/components/block/Block.jsx:299
+#: src/components/block/Block.jsx:305
 msgid "Plot Id"
 msgstr "耕地 Id"
 
@@ -1462,7 +1462,7 @@ msgstr ""
 #~ msgid "Plot Name"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:259
+#: src/components/block/Block.jsx:265
 msgid "Plot Public Key"
 msgstr "耕地公開鍵"
 
@@ -1554,12 +1554,12 @@ msgstr ""
 msgid "Pool Payout Instructions"
 msgstr ""
 
-#: src/components/block/Block.jsx:263
+#: src/components/block/Block.jsx:269
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "プール公開鍵"
 
-#: src/components/block/Block.jsx:283
+#: src/components/block/Block.jsx:289
 msgid "Pool Puzzle Hash"
 msgstr "プールパズルハッシュ値"
 
@@ -1579,7 +1579,7 @@ msgstr ""
 msgid "Pool Reward Address must not be empty."
 msgstr ""
 
-#: src/components/block/Block.jsx:313
+#: src/components/block/Block.jsx:319
 msgid "Pool Reward Amount"
 msgstr "プール報酬額"
 
@@ -1622,7 +1622,7 @@ msgstr ""
 msgid "Preparing standard wallet"
 msgstr ""
 
-#: src/components/block/Block.jsx:347
+#: src/components/block/Block.jsx:357
 msgid "Previous"
 msgstr "前へ"
 
@@ -1630,7 +1630,7 @@ msgstr "前へ"
 #~ msgid "Previous Block Hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:215
+#: src/components/block/Block.jsx:221
 msgid "Previous Header Hash"
 msgstr "前ヘッダーハッシュ値"
 
@@ -1650,7 +1650,7 @@ msgstr "秘密鍵 {0}"
 msgid "Private key:"
 msgstr "秘密鍵:"
 
-#: src/components/block/Block.jsx:251
+#: src/components/block/Block.jsx:257
 msgid "Proof of Space Size"
 msgstr "空間証明の大きさ"
 
@@ -2065,7 +2065,7 @@ msgstr "一時フォルダの場所"
 #~ msgid "Terminal"
 #~ msgstr ""
 
-#: src/components/logs/Logs.tsx:161
+#: src/components/logs/Logs.tsx:149
 msgid "Terminal & logs"
 msgstr ""
 
@@ -2114,19 +2114,19 @@ msgstr ""
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr ""
 
-#: src/components/block/Block.jsx:302
+#: src/components/block/Block.jsx:308
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "耕地作成に使用する種。プール pk 及び耕地 pk に依存した値です。"
 
-#: src/components/block/Block.jsx:228
+#: src/components/block/Block.jsx:234
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this sub block."
 msgstr "このブロックまでに全ブロックチェーンに行った VDF (検証可能遅延関数)、つまり時間証明の評価回数"
 
-#: src/components/block/Block.jsx:244
+#: src/components/block/Block.jsx:250
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
 msgstr "このブロックに行った VDF (検証可能遅延関数)、つまり時間証明の評価回数"
 
-#: src/components/block/Block.jsx:324
+#: src/components/block/Block.jsx:334
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "このブロック内の取引手数料の合計。農家への報酬となります。"
 
@@ -2169,7 +2169,7 @@ msgstr "これが (まだブロックチェーンに含まれていない) 保�
 msgid "This is the time of the latest peak sub block."
 msgstr "最新のピークサブブロックの日時です。"
 
-#: src/components/block/Block.jsx:194
+#: src/components/block/Block.jsx:200
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "これが農家がブロックを作成した日時です。時間証明によって完成する前の段階です。"
 
@@ -2235,7 +2235,11 @@ msgstr "作成日時"
 #~ msgid "Time this trade was created at this time"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:189
+#: src/components/block/Block.jsx:327
+msgid "Timelord Reward Amount"
+msgstr ""
+
+#: src/components/block/Block.jsx:195
 msgid "Timestamp"
 msgstr "タイムスタンプ"
 
@@ -2269,7 +2273,7 @@ msgstr "全ての耕地の容量の合計"
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:225
+#: src/components/block/Block.jsx:231
 msgid "Total VDF Iterations"
 msgstr "全 VDF 評価回数"
 
@@ -2309,7 +2313,7 @@ msgstr "交換"
 msgid "Trading History"
 msgstr "交換履歴"
 
-#: src/components/block/Block.jsx:309
+#: src/components/block/Block.jsx:315
 msgid "Transactions Filter Hash"
 msgstr "取引フィルターハッシュ値"
 
@@ -2478,11 +2482,11 @@ msgstr ""
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
 msgstr ""
 
-#: src/components/block/Block.jsx:205
+#: src/components/block/Block.jsx:211
 msgid "Weight"
 msgstr "重さ"
 
-#: src/components/block/Block.jsx:208
+#: src/components/block/Block.jsx:214
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr "ブロック重とはこのブロックを含めた全てのブロックの難易度の合計です。"
 

@@ -31,6 +31,7 @@ import { synt_to_skynet } from '../../util/skynet';
 import {
   calculatePoolReward,
   calculateBaseFarmerReward,
+  calculateBaseTimelordFee,
 } from '../../util/blockRewards';
 import LayoutMain from '../layout/LayoutMain';
 import toBech32m from '../../util/toBech32m';
@@ -175,6 +176,11 @@ export default function Block() {
   const baseFarmerReward = synt_to_skynet(
     calculateBaseFarmerReward(blockRecord.height),
   );
+  const baseTimelordFee = synt_to_skynet(
+    calculateBaseTimelordFee(blockRecord.height),
+  );
+  
+
 
   const skynetFees = blockRecord.fees
     ? synt_to_skynet(BigInt(blockRecord.fees))
@@ -316,6 +322,10 @@ export default function Block() {
     {
       name: <Trans>Base Farmer Reward Amount</Trans>,
       value: `${baseFarmerReward} ${currencyCode}`,
+    },
+    {
+      name: <Trans>Timelord Reward Amount</Trans>,
+      value: `${baseTimelordFee} ${currencyCode}`,
     },
     {
       name: <Trans>Fees Amount</Trans>,

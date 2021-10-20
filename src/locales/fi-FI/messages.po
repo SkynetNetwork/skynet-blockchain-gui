@@ -191,7 +191,7 @@ msgstr "Varmuuskopiotiedostoa käytetään lompakkojen palauttamiseen."
 msgid "Balance"
 msgstr "Saldo"
 
-#: src/components/block/Block.jsx:317
+#: src/components/block/Block.jsx:323
 msgid "Base Farmer Reward Amount"
 msgstr "Farmarin Peruspalkkio"
 
@@ -208,22 +208,22 @@ msgstr "Paras arvio viimeisten 24 tunnin ajalta"
 #~ msgid "Best estimate over last 5 hours"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:129
-#: src/components/block/Block.jsx:153
-#: src/components/block/Block.jsx:157
-#: src/components/block/Block.jsx:332
+#: src/components/block/Block.jsx:130
+#: src/components/block/Block.jsx:154
+#: src/components/block/Block.jsx:158
+#: src/components/block/Block.jsx:342
 msgid "Block"
 msgstr "Lohko"
 
-#: src/components/block/Block.jsx:137
+#: src/components/block/Block.jsx:138
 msgid "Block Test"
 msgstr "Lohkon Testi"
 
-#: src/components/block/Block.jsx:235
+#: src/components/block/Block.jsx:241
 msgid "Block VDF Iterations"
 msgstr "Lohkon VDF-iteraatiot"
 
-#: src/components/block/Block.jsx:336
+#: src/components/block/Block.jsx:346
 msgid "Block at height {0} in the Skynet blockchain"
 msgstr "Lohko korkeudessa {0} SKYNETn lohkoketjussa"
 
@@ -231,11 +231,11 @@ msgstr "Lohko korkeudessa {0} SKYNETn lohkoketjussa"
 #~ msgid "Block hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:141
+#: src/components/block/Block.jsx:142
 msgid "Block with hash {headerHash}"
 msgstr "Lohko tiivisteellä {headerHash}"
 
-#: src/components/block/Block.jsx:162
+#: src/components/block/Block.jsx:163
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Lohkoa tunnistetiivisteellä {headerHash} ei ole olemassa."
 
@@ -635,7 +635,7 @@ msgstr "Kehittäjä"
 msgid "Developer Tools"
 msgstr "Kehitystyökalut"
 
-#: src/components/block/Block.jsx:221
+#: src/components/block/Block.jsx:227
 #: src/components/fullNode/card/FullNodeCardDifficulty.tsx:20
 msgid "Difficulty"
 msgstr "Vaikeusaste"
@@ -750,7 +750,7 @@ msgstr "Farmi"
 msgid "Farmer Public Key"
 msgstr "Farmarin Julkinen Avain"
 
-#: src/components/block/Block.jsx:267
+#: src/components/block/Block.jsx:273
 msgid "Farmer Puzzle Hash"
 msgstr "Farmarin Osoitetiiviste"
 
@@ -829,7 +829,7 @@ msgstr "Veloitus"
 msgid "Fee ({currencyCode})"
 msgstr "Veloitus ({currencyCode})"
 
-#: src/components/block/Block.jsx:321
+#: src/components/block/Block.jsx:331
 msgid "Fees Amount"
 msgstr "Palkkiosumma"
 
@@ -910,11 +910,11 @@ msgstr "Harvesterin Plotit"
 msgid "Header Hash"
 msgstr "Lohkotunniste"
 
-#: src/components/block/Block.jsx:185
+#: src/components/block/Block.jsx:191
 msgid "Header hash"
 msgstr "Lohkotunniste"
 
-#: src/components/block/Block.jsx:201
+#: src/components/block/Block.jsx:207
 #: src/components/fullNode/FullNode.jsx:81
 #: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
@@ -1193,7 +1193,7 @@ msgstr "Uusi Osoite"
 msgid "New Wallet"
 msgstr "Uusi Lompakko"
 
-#: src/components/block/Block.jsx:350
+#: src/components/block/Block.jsx:360
 #: src/components/wallet/WalletAdd.tsx:95
 #: src/components/wallet/WalletImport.tsx:163
 msgid "Next"
@@ -1441,7 +1441,7 @@ msgstr "Plotti"
 msgid "Plot Count"
 msgstr "Plottien Määrä"
 
-#: src/components/block/Block.jsx:299
+#: src/components/block/Block.jsx:305
 msgid "Plot Id"
 msgstr "Plotin Tunnus"
 
@@ -1462,7 +1462,7 @@ msgstr "Plot-NFT:tä p2_singleton_puzzle_hashilla {plotNFTId} ei ole olemassa"
 #~ msgid "Plot Name"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:259
+#: src/components/block/Block.jsx:265
 msgid "Plot Public Key"
 msgstr "Plotin Julkinen Avain"
 
@@ -1554,12 +1554,12 @@ msgstr "Poolin Kirjautumislinkki"
 msgid "Pool Payout Instructions"
 msgstr "Poolin Maksuohjeet"
 
-#: src/components/block/Block.jsx:263
+#: src/components/block/Block.jsx:269
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "Poolin Julkinen Avain"
 
-#: src/components/block/Block.jsx:283
+#: src/components/block/Block.jsx:289
 msgid "Pool Puzzle Hash"
 msgstr "Poolin Osoitetiiviste"
 
@@ -1579,7 +1579,7 @@ msgstr "Poolin palkkio-osoitteen formaatti on väärä."
 msgid "Pool Reward Address must not be empty."
 msgstr "Poolin Palkkio-osoite on pakollinen."
 
-#: src/components/block/Block.jsx:313
+#: src/components/block/Block.jsx:319
 msgid "Pool Reward Amount"
 msgstr "Poolin Palkkiosumma"
 
@@ -1622,7 +1622,7 @@ msgstr "Valmistellaan Plot-NFT:tä"
 msgid "Preparing standard wallet"
 msgstr "Valmistellaan normaalia lompakkoa"
 
-#: src/components/block/Block.jsx:347
+#: src/components/block/Block.jsx:357
 msgid "Previous"
 msgstr "Edellinen"
 
@@ -1630,7 +1630,7 @@ msgstr "Edellinen"
 #~ msgid "Previous Block Hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:215
+#: src/components/block/Block.jsx:221
 msgid "Previous Header Hash"
 msgstr "Edellinen Tunnistetiiviste"
 
@@ -1650,7 +1650,7 @@ msgstr "Yksityinen avain {0}"
 msgid "Private key:"
 msgstr "Yksityinen avain:"
 
-#: src/components/block/Block.jsx:251
+#: src/components/block/Block.jsx:257
 msgid "Proof of Space Size"
 msgstr "Tilatodisteavaruuden Koko"
 
@@ -2065,7 +2065,7 @@ msgstr "Väliaikaishakemiston sijainti"
 #~ msgid "Terminal"
 #~ msgstr ""
 
-#: src/components/logs/Logs.tsx:161
+#: src/components/logs/Logs.tsx:149
 msgid "Terminal & logs"
 msgstr ""
 
@@ -2114,19 +2114,19 @@ msgstr "Poolin URL-osoite tarvitsee HTTPS-protokollan. {normalizedUrl}"
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr "Poolin vaihtaminen peruttiin, yritä uudelleen vaihtamalla poolia, tai itsepoolaamalla"
 
-#: src/components/block/Block.jsx:302
+#: src/components/block/Block.jsx:308
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "Siemenarvo plot-tiedostojen luontia varten. Riippuu poolin ja plotin julkisista avaimista."
 
-#: src/components/block/Block.jsx:228
+#: src/components/block/Block.jsx:234
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this sub block."
 msgstr "Tähän lohkoon asti iteroitujen VDF-aikatodisteiden lukumäärä."
 
-#: src/components/block/Block.jsx:244
+#: src/components/block/Block.jsx:250
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
 msgstr "Tähän lohkoon asti iteroitujen VDF-aikatodisteiden lukumäärä."
 
-#: src/components/block/Block.jsx:324
+#: src/components/block/Block.jsx:334
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Kokonaistransaktioveloitukset tässä lohkossa. Suoritetaan farmarille."
 
@@ -2169,7 +2169,7 @@ msgstr "Lähtevien ja saapuvien avointen transaktioiden summa (ei vielä lohkoke
 msgid "This is the time of the latest peak sub block."
 msgstr "Viimeisimmän lohkon aikaleima."
 
-#: src/components/block/Block.jsx:194
+#: src/components/block/Block.jsx:200
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "Ajankohta jolloin farmari on luonut lohkon. Aikatodiste viimeistelee lohkon tämän ajankohdan jälkeen"
 
@@ -2235,7 +2235,11 @@ msgstr "Luontiaika"
 #~ msgid "Time this trade was created at this time"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:189
+#: src/components/block/Block.jsx:327
+msgid "Timelord Reward Amount"
+msgstr ""
+
+#: src/components/block/Block.jsx:195
 msgid "Timestamp"
 msgstr "Aikaleima"
 
@@ -2269,7 +2273,7 @@ msgstr "Plottien Yhteiskoko"
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:225
+#: src/components/block/Block.jsx:231
 msgid "Total VDF Iterations"
 msgstr "VDF-iteraatioiden Määrä"
 
@@ -2309,7 +2313,7 @@ msgstr "Kaupankäynti"
 msgid "Trading History"
 msgstr "Kaupankäyntihistoria"
 
-#: src/components/block/Block.jsx:309
+#: src/components/block/Block.jsx:315
 msgid "Transactions Filter Hash"
 msgstr "Transaktion Filtteritiiviste"
 
@@ -2478,11 +2482,11 @@ msgstr "Varoitus: tätä avainta käytetään farmarin palkinto-osoitteeseen. Po
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
 msgstr "Varoitus: tätä avainta käytetään poolin palkinto-osoitteeseen. Poistamalla tämän avaimen voit menettää pääsyn tuleviin poolipalkkioihin"
 
-#: src/components/block/Block.jsx:205
+#: src/components/block/Block.jsx:211
 msgid "Weight"
 msgstr "Paino"
 
-#: src/components/block/Block.jsx:208
+#: src/components/block/Block.jsx:214
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr "Paino on kaikkien tähänastisten lohkojen vaikeuskerroin"
 

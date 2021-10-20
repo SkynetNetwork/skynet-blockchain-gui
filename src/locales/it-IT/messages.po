@@ -191,7 +191,7 @@ msgstr "Il file di backup viene usato per ripristinare gli smart wallet."
 msgid "Balance"
 msgstr "Bilancio"
 
-#: src/components/block/Block.jsx:317
+#: src/components/block/Block.jsx:323
 msgid "Base Farmer Reward Amount"
 msgstr "Ricompensa minima per il farmer"
 
@@ -208,22 +208,22 @@ msgstr "Migliore stima sulle ultime 24 ore"
 #~ msgid "Best estimate over last 5 hours"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:129
-#: src/components/block/Block.jsx:153
-#: src/components/block/Block.jsx:157
-#: src/components/block/Block.jsx:332
+#: src/components/block/Block.jsx:130
+#: src/components/block/Block.jsx:154
+#: src/components/block/Block.jsx:158
+#: src/components/block/Block.jsx:342
 msgid "Block"
 msgstr "Blocco"
 
-#: src/components/block/Block.jsx:137
+#: src/components/block/Block.jsx:138
 msgid "Block Test"
 msgstr "Test Blocco"
 
-#: src/components/block/Block.jsx:235
+#: src/components/block/Block.jsx:241
 msgid "Block VDF Iterations"
 msgstr "Blocco Iterazioni VDF"
 
-#: src/components/block/Block.jsx:336
+#: src/components/block/Block.jsx:346
 msgid "Block at height {0} in the Skynet blockchain"
 msgstr "Blocco all'altezza {0} nella blockchain Skynet"
 
@@ -231,11 +231,11 @@ msgstr "Blocco all'altezza {0} nella blockchain Skynet"
 #~ msgid "Block hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:141
+#: src/components/block/Block.jsx:142
 msgid "Block with hash {headerHash}"
 msgstr "Blocco con hash {headerHash}"
 
-#: src/components/block/Block.jsx:162
+#: src/components/block/Block.jsx:163
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Il blocco con hash {headerHash} non esiste."
 
@@ -635,7 +635,7 @@ msgstr "Sviluppatore"
 msgid "Developer Tools"
 msgstr "Strumenti per sviluppatori"
 
-#: src/components/block/Block.jsx:221
+#: src/components/block/Block.jsx:227
 #: src/components/fullNode/card/FullNodeCardDifficulty.tsx:20
 msgid "Difficulty"
 msgstr "Difficoltà"
@@ -750,7 +750,7 @@ msgstr "Coltiva"
 msgid "Farmer Public Key"
 msgstr "SKYNETve pubblica del farmer"
 
-#: src/components/block/Block.jsx:267
+#: src/components/block/Block.jsx:273
 msgid "Farmer Puzzle Hash"
 msgstr "Puzzle Hash Farmer"
 
@@ -829,7 +829,7 @@ msgstr "Costo della commissione"
 msgid "Fee ({currencyCode})"
 msgstr "Tassa ({currencyCode})"
 
-#: src/components/block/Block.jsx:321
+#: src/components/block/Block.jsx:331
 msgid "Fees Amount"
 msgstr "Ammontare delle tasse"
 
@@ -910,11 +910,11 @@ msgstr ""
 msgid "Header Hash"
 msgstr "Hash Header"
 
-#: src/components/block/Block.jsx:185
+#: src/components/block/Block.jsx:191
 msgid "Header hash"
 msgstr "Hash Header"
 
-#: src/components/block/Block.jsx:201
+#: src/components/block/Block.jsx:207
 #: src/components/fullNode/FullNode.jsx:81
 #: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
@@ -1193,7 +1193,7 @@ msgstr "Nuovo Indirizzo"
 msgid "New Wallet"
 msgstr "Nuovo Wallet"
 
-#: src/components/block/Block.jsx:350
+#: src/components/block/Block.jsx:360
 #: src/components/wallet/WalletAdd.tsx:95
 #: src/components/wallet/WalletImport.tsx:163
 msgid "Next"
@@ -1441,7 +1441,7 @@ msgstr "Plot"
 msgid "Plot Count"
 msgstr "Conteggio Plot"
 
-#: src/components/block/Block.jsx:299
+#: src/components/block/Block.jsx:305
 msgid "Plot Id"
 msgstr "Id Plot"
 
@@ -1462,7 +1462,7 @@ msgstr ""
 #~ msgid "Plot Name"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:259
+#: src/components/block/Block.jsx:265
 msgid "Plot Public Key"
 msgstr "SKYNETve Pubblica del Plot"
 
@@ -1554,12 +1554,12 @@ msgstr ""
 msgid "Pool Payout Instructions"
 msgstr ""
 
-#: src/components/block/Block.jsx:263
+#: src/components/block/Block.jsx:269
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "SKYNETve Pubblica Pool"
 
-#: src/components/block/Block.jsx:283
+#: src/components/block/Block.jsx:289
 msgid "Pool Puzzle Hash"
 msgstr "Hash Puzzle della Pool"
 
@@ -1579,7 +1579,7 @@ msgstr ""
 msgid "Pool Reward Address must not be empty."
 msgstr ""
 
-#: src/components/block/Block.jsx:313
+#: src/components/block/Block.jsx:319
 msgid "Pool Reward Amount"
 msgstr "Ammontare della Ricompensa della Pool"
 
@@ -1622,7 +1622,7 @@ msgstr ""
 msgid "Preparing standard wallet"
 msgstr ""
 
-#: src/components/block/Block.jsx:347
+#: src/components/block/Block.jsx:357
 msgid "Previous"
 msgstr "Precedente"
 
@@ -1630,7 +1630,7 @@ msgstr "Precedente"
 #~ msgid "Previous Block Hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:215
+#: src/components/block/Block.jsx:221
 msgid "Previous Header Hash"
 msgstr "Hash Header Precedente"
 
@@ -1650,7 +1650,7 @@ msgstr "SKYNETve privata {0}"
 msgid "Private key:"
 msgstr "SKYNETve privata:"
 
-#: src/components/block/Block.jsx:251
+#: src/components/block/Block.jsx:257
 msgid "Proof of Space Size"
 msgstr "Dimensione Prova di Spazio"
 
@@ -2065,7 +2065,7 @@ msgstr "Posizione cartella temporanea"
 #~ msgid "Terminal"
 #~ msgstr ""
 
-#: src/components/logs/Logs.tsx:161
+#: src/components/logs/Logs.tsx:149
 msgid "Terminal & logs"
 msgstr ""
 
@@ -2114,19 +2114,19 @@ msgstr ""
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr ""
 
-#: src/components/block/Block.jsx:302
+#: src/components/block/Block.jsx:308
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "Il seed usato per creare il plot. Questo dipende dalla pk della pool e dalla pk del plot."
 
-#: src/components/block/Block.jsx:228
+#: src/components/block/Block.jsx:234
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this sub block."
 msgstr "Il numero totale di VDF (funzione a verifica ritardata) o iterazioni della prova di tempo sull'intera blockchain fino a questo sotto blocco."
 
-#: src/components/block/Block.jsx:244
+#: src/components/block/Block.jsx:250
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
 msgstr "Il numero totale di VDF (funzione a verifica ritardata) o iterazioni di prove di tempo su questo blocco."
 
-#: src/components/block/Block.jsx:324
+#: src/components/block/Block.jsx:334
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Il totale delle tasse di transazione in questo blocco. Date come ricompensa al coltivatore."
 
@@ -2169,7 +2169,7 @@ msgstr "Questa è la somma delle transazioni in sospeso in entrata e in uscita (
 msgid "This is the time of the latest peak sub block."
 msgstr "Questo è il tempo dell'ultimo sottoblocco di picco."
 
-#: src/components/block/Block.jsx:194
+#: src/components/block/Block.jsx:200
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "Questo è il tempo in cui il blocco è stato creato dal coltivatore, che è precedente a quando è stato finalizzato con una prova di tempo"
 
@@ -2235,7 +2235,11 @@ msgstr "Creato al Tempo"
 #~ msgid "Time this trade was created at this time"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:189
+#: src/components/block/Block.jsx:327
+msgid "Timelord Reward Amount"
+msgstr ""
+
+#: src/components/block/Block.jsx:195
 msgid "Timestamp"
 msgstr "Marca temporale"
 
@@ -2269,7 +2273,7 @@ msgstr "Dimensione Totale dei Plot"
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:225
+#: src/components/block/Block.jsx:231
 msgid "Total VDF Iterations"
 msgstr "Totale Iterazioni VDF"
 
@@ -2309,7 +2313,7 @@ msgstr "Commerciando"
 msgid "Trading History"
 msgstr "Storia commerci"
 
-#: src/components/block/Block.jsx:309
+#: src/components/block/Block.jsx:315
 msgid "Transactions Filter Hash"
 msgstr "Filtro Hash Transazioni"
 
@@ -2478,11 +2482,11 @@ msgstr ""
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
 msgstr ""
 
-#: src/components/block/Block.jsx:205
+#: src/components/block/Block.jsx:211
 msgid "Weight"
 msgstr "Peso"
 
-#: src/components/block/Block.jsx:208
+#: src/components/block/Block.jsx:214
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr "Il peso è la difficoltà aggiunta in totale a tutti i sottoblocchi fino a e incluso questo"
 

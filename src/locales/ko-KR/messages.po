@@ -191,7 +191,7 @@ msgstr "백업된 파일은 스마트 월렛을 복구하는데 사용됩니다.
 msgid "Balance"
 msgstr "잔고"
 
-#: src/components/block/Block.jsx:317
+#: src/components/block/Block.jsx:323
 msgid "Base Farmer Reward Amount"
 msgstr "파밍에 대한 보상 지급의 최소 금액"
 
@@ -208,22 +208,22 @@ msgstr "지난 24시간 동안의 최적 예측값입니다."
 #~ msgid "Best estimate over last 5 hours"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:129
-#: src/components/block/Block.jsx:153
-#: src/components/block/Block.jsx:157
-#: src/components/block/Block.jsx:332
+#: src/components/block/Block.jsx:130
+#: src/components/block/Block.jsx:154
+#: src/components/block/Block.jsx:158
+#: src/components/block/Block.jsx:342
 msgid "Block"
 msgstr "블록"
 
-#: src/components/block/Block.jsx:137
+#: src/components/block/Block.jsx:138
 msgid "Block Test"
 msgstr "블록 테스트"
 
-#: src/components/block/Block.jsx:235
+#: src/components/block/Block.jsx:241
 msgid "Block VDF Iterations"
 msgstr "블록 VDF 반복"
 
-#: src/components/block/Block.jsx:336
+#: src/components/block/Block.jsx:346
 msgid "Block at height {0} in the Skynet blockchain"
 msgstr "Skynet 블록체인 높이 {0} 에 있는 블록"
 
@@ -231,11 +231,11 @@ msgstr "Skynet 블록체인 높이 {0} 에 있는 블록"
 #~ msgid "Block hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:141
+#: src/components/block/Block.jsx:142
 msgid "Block with hash {headerHash}"
 msgstr "해쉬 {headerHash} 의 블록"
 
-#: src/components/block/Block.jsx:162
+#: src/components/block/Block.jsx:163
 msgid "Block with hash {headerHash} does not exist."
 msgstr "{headerHash} 에 해당하는 블록이 존재하지 않습니다."
 
@@ -635,7 +635,7 @@ msgstr "개발자"
 msgid "Developer Tools"
 msgstr "개발자 도구"
 
-#: src/components/block/Block.jsx:221
+#: src/components/block/Block.jsx:227
 #: src/components/fullNode/card/FullNodeCardDifficulty.tsx:20
 msgid "Difficulty"
 msgstr "난이도"
@@ -750,7 +750,7 @@ msgstr "농장"
 msgid "Farmer Public Key"
 msgstr "파머 공개 키"
 
-#: src/components/block/Block.jsx:267
+#: src/components/block/Block.jsx:273
 msgid "Farmer Puzzle Hash"
 msgstr "수확기 퍼즐 해시"
 
@@ -829,7 +829,7 @@ msgstr "수수료"
 msgid "Fee ({currencyCode})"
 msgstr "수수료 ({currencyCode})"
 
-#: src/components/block/Block.jsx:321
+#: src/components/block/Block.jsx:331
 msgid "Fees Amount"
 msgstr "수수료 금액"
 
@@ -910,11 +910,11 @@ msgstr ""
 msgid "Header Hash"
 msgstr "헤더 해시"
 
-#: src/components/block/Block.jsx:185
+#: src/components/block/Block.jsx:191
 msgid "Header hash"
 msgstr "해더 해시"
 
-#: src/components/block/Block.jsx:201
+#: src/components/block/Block.jsx:207
 #: src/components/fullNode/FullNode.jsx:81
 #: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
@@ -1193,7 +1193,7 @@ msgstr "새 주소"
 msgid "New Wallet"
 msgstr "새 지갑"
 
-#: src/components/block/Block.jsx:350
+#: src/components/block/Block.jsx:360
 #: src/components/wallet/WalletAdd.tsx:95
 #: src/components/wallet/WalletImport.tsx:163
 msgid "Next"
@@ -1441,7 +1441,7 @@ msgstr "플롯"
 msgid "Plot Count"
 msgstr "플롯 수"
 
-#: src/components/block/Block.jsx:299
+#: src/components/block/Block.jsx:305
 msgid "Plot Id"
 msgstr "플롯 ID"
 
@@ -1462,7 +1462,7 @@ msgstr ""
 #~ msgid "Plot Name"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:259
+#: src/components/block/Block.jsx:265
 msgid "Plot Public Key"
 msgstr "구성 공개 키"
 
@@ -1554,12 +1554,12 @@ msgstr ""
 msgid "Pool Payout Instructions"
 msgstr ""
 
-#: src/components/block/Block.jsx:263
+#: src/components/block/Block.jsx:269
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "풀 퍼블릭 키"
 
-#: src/components/block/Block.jsx:283
+#: src/components/block/Block.jsx:289
 msgid "Pool Puzzle Hash"
 msgstr "풀 퍼즐 해시"
 
@@ -1579,7 +1579,7 @@ msgstr ""
 msgid "Pool Reward Address must not be empty."
 msgstr ""
 
-#: src/components/block/Block.jsx:313
+#: src/components/block/Block.jsx:319
 msgid "Pool Reward Amount"
 msgstr "풀 보상량"
 
@@ -1622,7 +1622,7 @@ msgstr ""
 msgid "Preparing standard wallet"
 msgstr ""
 
-#: src/components/block/Block.jsx:347
+#: src/components/block/Block.jsx:357
 msgid "Previous"
 msgstr "이전"
 
@@ -1630,7 +1630,7 @@ msgstr "이전"
 #~ msgid "Previous Block Hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:215
+#: src/components/block/Block.jsx:221
 msgid "Previous Header Hash"
 msgstr "이전 해더 해시"
 
@@ -1650,7 +1650,7 @@ msgstr "개인 키 {0}"
 msgid "Private key:"
 msgstr "개인 키:"
 
-#: src/components/block/Block.jsx:251
+#: src/components/block/Block.jsx:257
 msgid "Proof of Space Size"
 msgstr "공간 크기 증명"
 
@@ -2065,7 +2065,7 @@ msgstr "임시 폴더 경로"
 #~ msgid "Terminal"
 #~ msgstr ""
 
-#: src/components/logs/Logs.tsx:161
+#: src/components/logs/Logs.tsx:149
 msgid "Terminal & logs"
 msgstr ""
 
@@ -2114,19 +2114,19 @@ msgstr ""
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr ""
 
-#: src/components/block/Block.jsx:302
+#: src/components/block/Block.jsx:308
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "플롯을 만드는 데 사용 된 시드입니다. 이는 풀 pk 및 플롯 pk에 따라 다릅니다."
 
-#: src/components/block/Block.jsx:228
+#: src/components/block/Block.jsx:234
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this sub block."
 msgstr "VDF (확인 가능한 지연 함수) 의 전체 수 또는 이 하위 블록까지 전체 체인에 대한 시간 반복의 전체 수 입니다."
 
-#: src/components/block/Block.jsx:244
+#: src/components/block/Block.jsx:250
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
 msgstr "VDF (확인 가능한 지연 함수) 의 총 수 또는이 블록의 시간 반복 증명입니다."
 
-#: src/components/block/Block.jsx:324
+#: src/components/block/Block.jsx:334
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "이 블록의 총 거래 수수료. 농부에게 보상."
 
@@ -2169,7 +2169,7 @@ msgstr "이것은 들어오고 나가는 보류 트랜잭션의 합계입니다 
 msgid "This is the time of the latest peak sub block."
 msgstr "이것은 최신 피크 서브 블록의 시간입니다."
 
-#: src/components/block/Block.jsx:194
+#: src/components/block/Block.jsx:200
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "이것은 농부가 블록을 만든 시간이며 시간 증명으로 완성되기 전입니다."
 
@@ -2235,7 +2235,11 @@ msgstr "생성 시간"
 #~ msgid "Time this trade was created at this time"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:189
+#: src/components/block/Block.jsx:327
+msgid "Timelord Reward Amount"
+msgstr ""
+
+#: src/components/block/Block.jsx:195
 msgid "Timestamp"
 msgstr "타임스탬프"
 
@@ -2269,7 +2273,7 @@ msgstr "전체 플롯의 용량"
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:225
+#: src/components/block/Block.jsx:231
 msgid "Total VDF Iterations"
 msgstr "총 VDF 반복"
 
@@ -2309,7 +2313,7 @@ msgstr "거래"
 msgid "Trading History"
 msgstr "거래내역"
 
-#: src/components/block/Block.jsx:309
+#: src/components/block/Block.jsx:315
 msgid "Transactions Filter Hash"
 msgstr "거래 필터 해시"
 
@@ -2478,11 +2482,11 @@ msgstr ""
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
 msgstr ""
 
-#: src/components/block/Block.jsx:205
+#: src/components/block/Block.jsx:211
 msgid "Weight"
 msgstr "중량"
 
-#: src/components/block/Block.jsx:208
+#: src/components/block/Block.jsx:214
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr "무게는 이것을 포함하여 모든 서브 블록의 총 추가 난이도입니다."
 

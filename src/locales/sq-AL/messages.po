@@ -191,7 +191,7 @@ msgstr "Skedari Reservë shërben për të rikthyer kuletat smart."
 msgid "Balance"
 msgstr "Shuma"
 
-#: src/components/block/Block.jsx:317
+#: src/components/block/Block.jsx:323
 msgid "Base Farmer Reward Amount"
 msgstr "Shuma e Shpërblimit për Fermerin kryesor"
 
@@ -208,22 +208,22 @@ msgstr "Llogaritja më e mire gjatë 24 orëve të fundit"
 #~ msgid "Best estimate over last 5 hours"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:129
-#: src/components/block/Block.jsx:153
-#: src/components/block/Block.jsx:157
-#: src/components/block/Block.jsx:332
+#: src/components/block/Block.jsx:130
+#: src/components/block/Block.jsx:154
+#: src/components/block/Block.jsx:158
+#: src/components/block/Block.jsx:342
 msgid "Block"
 msgstr "Blloku"
 
-#: src/components/block/Block.jsx:137
+#: src/components/block/Block.jsx:138
 msgid "Block Test"
 msgstr "Kontrolli i Bllokut"
 
-#: src/components/block/Block.jsx:235
+#: src/components/block/Block.jsx:241
 msgid "Block VDF Iterations"
 msgstr "Përsëritjet e Bllokut VDF"
 
-#: src/components/block/Block.jsx:336
+#: src/components/block/Block.jsx:346
 msgid "Block at height {0} in the Skynet blockchain"
 msgstr "Blloku ne lartësin {0} ne Zinxhirin Skynet"
 
@@ -231,11 +231,11 @@ msgstr "Blloku ne lartësin {0} ne Zinxhirin Skynet"
 #~ msgid "Block hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:141
+#: src/components/block/Block.jsx:142
 msgid "Block with hash {headerHash}"
 msgstr "Blloku me kodimin {headerHash}"
 
-#: src/components/block/Block.jsx:162
+#: src/components/block/Block.jsx:163
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Blloku me kodimin {headerHash} nuk ekziston."
 
@@ -635,7 +635,7 @@ msgstr "Programuesi"
 msgid "Developer Tools"
 msgstr "Veglat e Programuesit"
 
-#: src/components/block/Block.jsx:221
+#: src/components/block/Block.jsx:227
 #: src/components/fullNode/card/FullNodeCardDifficulty.tsx:20
 msgid "Difficulty"
 msgstr "Vështirësia"
@@ -750,7 +750,7 @@ msgstr "Ferma"
 msgid "Farmer Public Key"
 msgstr "Çelësi publik i fermerit"
 
-#: src/components/block/Block.jsx:267
+#: src/components/block/Block.jsx:273
 msgid "Farmer Puzzle Hash"
 msgstr "Kodi i kombinuar i Fermës"
 
@@ -829,7 +829,7 @@ msgstr "Tarifa"
 msgid "Fee ({currencyCode})"
 msgstr "Tarifa({currencyCode})"
 
-#: src/components/block/Block.jsx:321
+#: src/components/block/Block.jsx:331
 msgid "Fees Amount"
 msgstr "Shuma e tarifës"
 
@@ -910,11 +910,11 @@ msgstr "Parcela korrëse"
 msgid "Header Hash"
 msgstr "Koka e kodit"
 
-#: src/components/block/Block.jsx:185
+#: src/components/block/Block.jsx:191
 msgid "Header hash"
 msgstr "Koka e kodit"
 
-#: src/components/block/Block.jsx:201
+#: src/components/block/Block.jsx:207
 #: src/components/fullNode/FullNode.jsx:81
 #: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Height"
@@ -1193,7 +1193,7 @@ msgstr "Adresë e re"
 msgid "New Wallet"
 msgstr "Kuletë e re"
 
-#: src/components/block/Block.jsx:350
+#: src/components/block/Block.jsx:360
 #: src/components/wallet/WalletAdd.tsx:95
 #: src/components/wallet/WalletImport.tsx:163
 msgid "Next"
@@ -1441,7 +1441,7 @@ msgstr "Plot"
 msgid "Plot Count"
 msgstr "Numri i ploteve"
 
-#: src/components/block/Block.jsx:299
+#: src/components/block/Block.jsx:305
 msgid "Plot Id"
 msgstr "Id e plotit"
 
@@ -1462,7 +1462,7 @@ msgstr "Plot NFT me p2_singleton_puzzle_hash {plotNFTId} nuk ekziston"
 #~ msgid "Plot Name"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:259
+#: src/components/block/Block.jsx:265
 msgid "Plot Public Key"
 msgstr "Çelësi publik i plotit"
 
@@ -1554,12 +1554,12 @@ msgstr "Lidhja e hyrjes në poll"
 msgid "Pool Payout Instructions"
 msgstr "Udhëzimet e Pagimit të Pollit"
 
-#: src/components/block/Block.jsx:263
+#: src/components/block/Block.jsx:269
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "Çelësi publik i pollit"
 
-#: src/components/block/Block.jsx:283
+#: src/components/block/Block.jsx:289
 msgid "Pool Puzzle Hash"
 msgstr "Pazell e pollit"
 
@@ -1579,7 +1579,7 @@ msgstr "Adresa e Shpërblimit të Pollit nuk është e formatuar siç duhet."
 msgid "Pool Reward Address must not be empty."
 msgstr "Adresa e Shpërblimit të Pollit nuk duhet të jetë bosh."
 
-#: src/components/block/Block.jsx:313
+#: src/components/block/Block.jsx:319
 msgid "Pool Reward Amount"
 msgstr "Shuma e Shpërblimit të Pollit"
 
@@ -1622,7 +1622,7 @@ msgstr "Përgatitja e plotit NFT"
 msgid "Preparing standard wallet"
 msgstr "Përgatitja e portofolit standard"
 
-#: src/components/block/Block.jsx:347
+#: src/components/block/Block.jsx:357
 msgid "Previous"
 msgstr "Paraprak"
 
@@ -1630,7 +1630,7 @@ msgstr "Paraprak"
 #~ msgid "Previous Block Hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:215
+#: src/components/block/Block.jsx:221
 msgid "Previous Header Hash"
 msgstr "Headeri i mëparshëm Hash"
 
@@ -1650,7 +1650,7 @@ msgstr "Çelësi privat {0}"
 msgid "Private key:"
 msgstr "Çelësi privat:"
 
-#: src/components/block/Block.jsx:251
+#: src/components/block/Block.jsx:257
 msgid "Proof of Space Size"
 msgstr "Prova e Madhësisë së Hapësirës"
 
@@ -2065,7 +2065,7 @@ msgstr "Vendndodhja e përkohshme e dosjes"
 #~ msgid "Terminal"
 #~ msgstr ""
 
-#: src/components/logs/Logs.tsx:161
+#: src/components/logs/Logs.tsx:149
 msgid "Terminal & logs"
 msgstr ""
 
@@ -2114,19 +2114,19 @@ msgstr "URL-ja e pollit duhet të përdorë protokollin https. {normalizedUrl}"
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr "Operacioni i ndërrimit të pollit u anulua, ju lutemi provoni përsëri duke ndryshuar pollin ose vetë-bashkuar"
 
-#: src/components/block/Block.jsx:302
+#: src/components/block/Block.jsx:308
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "Fara e përdorur për të krijuar komplotin. Kjo varet nga komploti pk i pollit."
 
-#: src/components/block/Block.jsx:228
+#: src/components/block/Block.jsx:234
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this sub block."
 msgstr "Numri i përgjithshëm i VDF (funksioni i verifikimit të vonesës) ose prova e përsëritjeve të kohës në të gjithë zinxhirin deri në këtë nën bllok."
 
-#: src/components/block/Block.jsx:244
+#: src/components/block/Block.jsx:250
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
 msgstr "Numri i përgjithshëm i VDF (funksioni i verifikimit të vonesës) ose prova e përsëritjeve të kohës në këtë bllok."
 
-#: src/components/block/Block.jsx:324
+#: src/components/block/Block.jsx:334
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Tarifat totale të transaksioneve në këtë bllok. Shpërblyer për fermerin."
 
@@ -2169,7 +2169,7 @@ msgstr "Kjo është shuma e transaksioneve hyrëse dhe dalëse në pritje (nuk j
 msgid "This is the time of the latest peak sub block."
 msgstr "Kjo është koha e nën bllokut të pikut të fundit."
 
-#: src/components/block/Block.jsx:194
+#: src/components/block/Block.jsx:200
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "Kjo është koha kur blloku është krijuar nga fermeri, e cila është para se të finalizohet me një provë të kohës"
 
@@ -2235,7 +2235,11 @@ msgstr "Koha qe u Kriua"
 #~ msgid "Time this trade was created at this time"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:189
+#: src/components/block/Block.jsx:327
+msgid "Timelord Reward Amount"
+msgstr ""
+
+#: src/components/block/Block.jsx:195
 msgid "Timestamp"
 msgstr "Vula kohore"
 
@@ -2269,7 +2273,7 @@ msgstr "Madhësia totale e ploteve"
 #~ msgid "Total Skynet Farmed"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:225
+#: src/components/block/Block.jsx:231
 msgid "Total VDF Iterations"
 msgstr "Përsëritjet totale të VDF-së"
 
@@ -2309,7 +2313,7 @@ msgstr "Tregtimi"
 msgid "Trading History"
 msgstr "Historia e Tregtisë"
 
-#: src/components/block/Block.jsx:309
+#: src/components/block/Block.jsx:315
 msgid "Transactions Filter Hash"
 msgstr "Filteri I Transaksioneve"
 
@@ -2478,11 +2482,11 @@ msgstr ""
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
 msgstr ""
 
-#: src/components/block/Block.jsx:205
+#: src/components/block/Block.jsx:211
 msgid "Weight"
 msgstr "Pesha"
 
-#: src/components/block/Block.jsx:208
+#: src/components/block/Block.jsx:214
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr "Pesha është vështirësia totale e shtuar e të gjitha nën blloqeve deri dhe duke përfshirë këtë"
 
