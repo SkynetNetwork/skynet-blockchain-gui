@@ -230,7 +230,7 @@ export default function PlotNFTCard(props: Props) {
       value: <FormatLargeNumber value={totalPointsFound24} />,
     },
     !isSelfPooling && {
-      key: 'points_found_24',
+      key: 'points_successful_24',
       label: (
         <Typography>
           <Trans>Points Successful in Last 24 Hours</Trans>

@@ -7,6 +7,9 @@
       "dom.iterable",
       "esnext"
     ],
+    "paths": {
+      "@skynet/*": ["./components/*"]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

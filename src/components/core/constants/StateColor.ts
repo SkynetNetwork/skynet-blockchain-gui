@@ -1,7 +1,7 @@
 enum StateColor {
-  SUCCESS = '#65f68d',
-  WARNING = '#ff9f51',
-  ERROR = '#fa3853',
+  SUCCESS = '#3AAC59',
+  WARNING = '#F7CA3E',
+  ERROR = '#F44336',
 }
 
 export default StateColor;

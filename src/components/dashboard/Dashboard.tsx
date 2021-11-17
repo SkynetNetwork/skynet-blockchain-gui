@@ -18,6 +18,7 @@ import Plot from '../plot/Plot';
 import Farm from '../farm/Farm';
 import Pool from '../pool/Pool';
 import Logs from '../logs/Logs';
+import Settings from '../settings/Settings';
 import Block from '../block/Block';
 import DashboardSideBar from './DashboardSideBar';
 import { DashboardTitleTarget } from './DashboardTitle';
@@ -204,6 +205,9 @@ export default class Dashboard extends React.Component {
             </Route>
             <Route path={`/dashboard/trade`}>
               <TradeManager />
+            </Route>
+            <Route path={`/dashboard/settings`}>
+              <Settings />
             </Route>
           </Switch>
         </StyledBody>

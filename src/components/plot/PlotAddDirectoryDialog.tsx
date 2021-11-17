@@ -45,6 +45,11 @@ export default function PlotAddDirectoryDialog(props: Props) {
     onClose();
   }
 
+  function handleDialogClose(event: any, reason: any) {
+    if (reason !== 'backdropClick' || reason !== 'EscapeKeyDown') {
+      onClose();
+    }}
+
   function removePlotDir(dir: string) {
     dispatch(remove_plot_directory_and_refresh(dir));
   }
@@ -58,6 +63,7 @@ export default function PlotAddDirectoryDialog(props: Props) {
 
   return (
     <Dialog
+      onClose={handleDialogClose}
       disableBackdropClick
       disableEscapeKeyDown
       maxWidth="md"

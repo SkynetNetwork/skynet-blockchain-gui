@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Trans } from '@lingui/macro';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { List } from '@material-ui/core';
 import {
   Wallet as WalletIcon,
@@ -11,9 +11,11 @@ import {
   Plot as PlotIcon,
   Pool as PoolIcon,
   Logs as LogIcon,
+  Settings as SettingsIcon,
 } from '@skynet/icons';
 import { Flex, SideBarItem } from '@skynet/core';
 import { logOut } from '../../modules/message';
+import { RootState } from '../../modules/rootReducer';
 
 const StyledRoot = styled(Flex)`
   height: 100%;
@@ -26,6 +28,7 @@ const StyledList = styled(List)`
 
 export default function DashboardSideBar() {
   const dispatch = useDispatch();
+  const { passphrase_support_enabled: passphraseSupportEnabled } = useSelector((state: RootState) => state.keyring_state);
 
   function handleLogOut() {
     dispatch(logOut('log_out', {}));
@@ -72,6 +75,14 @@ export default function DashboardSideBar() {
           icon={<LogIcon fontSize="large" />}
           title={<Trans>Logs</Trans>}
         />
+
+        { passphraseSupportEnabled &&
+          <SideBarItem
+            to="/dashboard/settings"
+            icon={<SettingsIcon fontSize="large" />}
+            title={<Trans>Settings</Trans>}
+          />
+        }
       </StyledList>
     </StyledRoot>
   );

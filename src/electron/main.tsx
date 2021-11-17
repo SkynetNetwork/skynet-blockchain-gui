@@ -1,4 +1,4 @@
-import { app, dialog, shell, ipcMain, BrowserWindow, Menu, nativeTheme } from 'electron';
+import { app, dialog, shell, ipcMain, BrowserWindow, Menu, nativeTheme, session } from 'electron';
 import path from 'path';
 import React from 'react';
 import url from 'url';
@@ -128,7 +128,7 @@ if (!handleSquirrelEvent()) {
     //set dark mode
     nativeTheme.themeSource = 'dark';
 
-    const createWindow = () => {
+    const createWindow = async () => {
       decidedToClose = false;
       mainWindow = new BrowserWindow({
         width: 1200,
@@ -150,15 +150,15 @@ if (!handleSquirrelEvent()) {
       });
 
       if (dev_config.redux_tool) {
-        BrowserWindow.addDevToolsExtension(
-          path.join(os.homedir(), dev_config.redux_tool),
-        );
+        const reduxDevToolsPath = path.join(os.homedir(), dev_config.react_tool)
+        await app.whenReady();
+        await session.defaultSession.loadExtension(reduxDevToolsPath)
       }
 
       if (dev_config.react_tool) {
-        BrowserWindow.addDevToolsExtension(
-          path.join(os.homedir(), dev_config.react_tool),
-        );
+        const reactDevToolsPath = path.join(os.homedir(), dev_config.redux_tool);
+        await app.whenReady();
+        await session.defaultSession.loadExtension(reactDevToolsPath)
       }
 
       const startUrl =
